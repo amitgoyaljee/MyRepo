@@ -1,0 +1,11 @@
+{
+  "user": {
+    "id": 123,
+    "name": "Alice",
+    "roles": ["admin", "editor"],
+    "address": {
+      "city": "Wonderland",
+      "zip": "12345"
+    }
+  }
+}

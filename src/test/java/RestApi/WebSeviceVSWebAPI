@@ -1,0 +1,21 @@
+Differences between Web Services and API
+Here are important differences between Web services and API.
+
+Web Serviced	                            API
+All web services are APIs.          	All APIs are not web services.
+
+It supports XML.	                    Responses are formatted using Web API’s MediaTypeFormatter into XML, JSON, or any other given format.
+You need a SOAP protocol to send or
+receive and data over the network.
+Therefore it does not have
+light-weight architecture.          	    API has a light-weight architecture.
+
+It can be used by any client
+ who understands XML.                   	It can be used by a client who understands JSON or XML.
+
+Web service uses three styles:
+ REST, SOAP, and XML-RPC for
+  communication.	                        API can be used for any style of communication.
+
+It provides supports only
+for the HTTP protocol.	                    It provides support for the HTTP/s protocol: URL Request/Response Headers, etc.

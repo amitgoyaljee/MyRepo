@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="165" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideInfoMessages" value="true" />
+    <option name="HIDE_INFO_MESSAGES" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z7m00o2az1Z96CZ18kPkjaa8MR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="TestNG" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\main\resources" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi\JsonReader" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\TestNG" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RestApi" />
+      <recent name="RestApi.SerialDeSerial" />
+      <recent name="TestNG" />
+      <recent name="test" />
+      <recent name="RestApi.JsonReader" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\main\java\test" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi\JsonReader" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.inteviewPRG.myWithoutSpaceOccurance">
+    <configuration type="TestNG" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlyCharsNoBuiltIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prg.OnlyCharsNoBuiltIn" />
+      <module name="Selenium_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Prg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestApi" />
+      <option name="MAIN_CLASS_NAME" value="RestApi.GetApi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetApi.myURI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestApi" />
+      <option name="MAIN_CLASS_NAME" value="RestApi.GetApi" />
+      <option name="METHOD_NAME" value="myURI" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetApi.myURILogError" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestApi" />
+      <option name="MAIN_CLASS_NAME" value="RestApi.GetApi" />
+      <option name="METHOD_NAME" value="myURILogError" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="inteviewPRG.myWithoutSpaceOccurance" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Prg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.inteviewPRG" />
+      <option name="METHOD_NAME" value="myWithoutSpaceOccurance" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.inteviewPRG.myWithoutSpaceOccurance" />
+        <item itemvalue="Application.OnlyCharsNoBuiltIn" />
+        <item itemvalue="TestNG.GetApi.myURI" />
+        <item itemvalue="TestNG.GetApi" />
+        <item itemvalue="TestNG.GetApi.myURILogError" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="" />
+      <created>1584198280348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584198280348</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="362" y="17" width="571" height="638" key="#DataOneApiToOther_MultipleUseOfApi" timestamp="1759996553766">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="362" y="17" width="571" height="638" key="#DataOneApiToOther_MultipleUseOfApi/0.0.1280.672@0.0.1280.672" timestamp="1759996553766" />
+    <state x="93" y="93" width="1095" height="487" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1759480026075">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="93" y="93" width="1095" height="487" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.672@0.0.1280.672" timestamp="1759480026075" />
+    <state x="395" y="147" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1759642650554">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="395" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672@0.0.1280.672" timestamp="1759642650554" />
+    <state x="446" y="30" key="#com.intellij.ide.util.MemberChooser" timestamp="1759479281943">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="446" y="30" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672@0.0.1280.672" timestamp="1759479281943" />
+    <state x="345" y="13" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1759479229660">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="345" y="13" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.672@0.0.1280.672" timestamp="1759479229660" />
+    <state x="376" y="215" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1760334114217">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="376" y="215" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.672@0.0.1280.672" timestamp="1760334114217" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1759992197211">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1759992197211" />
+    <state width="1237" height="191" key="GridCell.Tab.0.bottom" timestamp="1760334274219">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="191" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1760334274219" />
+    <state width="1237" height="191" key="GridCell.Tab.0.center" timestamp="1760334274219">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="191" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1760334274219" />
+    <state width="1237" height="191" key="GridCell.Tab.0.left" timestamp="1760334274219">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="191" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1760334274219" />
+    <state width="1237" height="191" key="GridCell.Tab.0.right" timestamp="1760334274219">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="191" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1760334274219" />
+    <state width="1237" height="191" key="GridCell.Tab.1.bottom" timestamp="1760334274220">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="191" key="GridCell.Tab.1.bottom/0.0.1280.672@0.0.1280.672" timestamp="1760334274220" />
+    <state width="1237" height="191" key="GridCell.Tab.1.center" timestamp="1760334274220">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="191" key="GridCell.Tab.1.center/0.0.1280.672@0.0.1280.672" timestamp="1760334274220" />
+    <state width="1237" height="191" key="GridCell.Tab.1.left" timestamp="1760334274220">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="191" key="GridCell.Tab.1.left/0.0.1280.672@0.0.1280.672" timestamp="1760334274220" />
+    <state width="1237" height="191" key="GridCell.Tab.1.right" timestamp="1760334274220">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="191" key="GridCell.Tab.1.right/0.0.1280.672@0.0.1280.672" timestamp="1760334274220" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1759896544248">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1759896544248" />
+    <state x="349" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1759468528342">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="349" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1759468528342" />
+    <state x="346" y="92" width="588" height="488" key="find.popup" timestamp="1760333686449">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="346" y="92" width="588" height="488" key="find.popup/0.0.1280.672@0.0.1280.672" timestamp="1760333686449" />
+    <state x="91" y="41" key="new project wizard" timestamp="1759896853163">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="91" y="41" key="new project wizard/0.0.1280.672@0.0.1280.672" timestamp="1759896853163" />
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1760333675676">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1760333675676" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/JSExecutor.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium_/Operations.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenide/selenide_.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenide/selenide_.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenide/selenide_.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenide/selenide_.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/RestApi/DeleteApi.java</url>
+          <line>37</line>
+          <properties class="RestApi.DeleteApi" method="deleteBook">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Selenium_Project$JsonReader_readJsonTree__1_.ic" NAME="JsonReader.readJsonTree (1) Coverage Results" MODIFIED="1722747738770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>RestApi.JsonReader.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Selenium_Project$Main1.ic" NAME="Main1 Coverage Results" MODIFIED="1722431931433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Prg.*</FILTER>
+    </SUITE>
+  </component>
+</project>
