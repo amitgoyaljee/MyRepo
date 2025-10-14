@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/ReRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/enum_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/enum_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/steps/MyStepdefs22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/MyStepdefs22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/AAAA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/AAAA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/array_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/array_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/AAAA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/AAAA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/GfG2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/GfG2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.OnlyCharsNoBuiltIn.executor": "Run",
+    "Application.TwoSum.executor": "Run",
     "Application.ee$my.executor": "Run",
     "JUnit.FailedTestsRunner (1).executor": "Run",
     "JUnit.FailedTestsRunner.executor": "Run",
@@ -53,7 +59,11 @@
     "JUnit.TestRunner.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AAAA.myFun1.executor": "Run",
     "TestNG.SumDigit_Palin.sumofDigit.executor": "Run",
+    "TestNG.inteviewPRG.myFun2.executor": "Run",
+    "TestNG.inteviewPRG.myIndices.executor": "Run",
+    "TestNG.inteviewPRG.myWithoutSpaceOccurance.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -89,7 +99,7 @@
       <recent name="RestApi.JsonReader" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReRun">
+  <component name="RunManager" selected="TestNG.inteviewPRG.myIndices">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -117,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ee$my" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.ee$my" />
+    <configuration name="OnlyCharsNoBuiltIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prg.OnlyCharsNoBuiltIn" />
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,73 +140,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailedTestsRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prg.TwoSum" />
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Runners.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.FailedTestsRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailedTestsRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AAAA.myFun1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Runners.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.FailedTestsRunner" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.AAAA" />
+      <option name="METHOD_NAME" value="myFun1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="inteviewPRG.myFun2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Runners.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.ReRun" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.inteviewPRG" />
+      <option name="METHOD_NAME" value="myFun2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="inteviewPRG.myIndices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Runners.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.inteviewPRG" />
+      <option name="METHOD_NAME" value="myIndices" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReRun" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="JUnit.FailedTestsRunner (1)" />
-        <item itemvalue="JUnit.FailedTestsRunner" />
-        <item itemvalue="Application.ee$my" />
+        <item itemvalue="TestNG.inteviewPRG.myIndices" />
+        <item itemvalue="TestNG.inteviewPRG.myFun2" />
+        <item itemvalue="Application.OnlyCharsNoBuiltIn" />
+        <item itemvalue="TestNG.AAAA.myFun1" />
+        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>

@@ -61,7 +61,17 @@ public void rremoveDuplicateAdjacent() throws Exception {
             }
         }
         map.forEach((x, y) -> System.out.println(x + "-----" + y));
-
+//a-----3
+//s-----3
+//c-----1
+//T-----2
+//t-----2
+//u-----1
+//e-----1
+//h-----1
+//i-----2
+//l-----1
+//n-----1
     }
 
     ////////////////
@@ -76,6 +86,79 @@ public void rremoveDuplicateAdjacent() throws Exception {
                 strBf.append(chEach);
             }
         }  System.out.println("Removed all duplicate : " + new String(strBf));
+    }
+
+    @Test
+    public void myFun() {
+        String str = "The cat under the roof";
+        StringBuilder sb= new StringBuilder();
+        String reverse= "";
+
+        int length_ = str.length();
+
+        for (int i = length_ - 1; i >=0; i--) {
+            reverse= reverse+ str.charAt(i);
+
+        }
+        System.out.println("Reverse String-----"+reverse);
+    }
+
+    @Test
+    public void myFun2() {
+        String str = "The cat under the roof";  //ehT tac redun eht foor
+        String [] str2=str.split(" ");
+        System.out.println("Org String-----"+str2[0]+str2[1]+str2[2]+str2[3]+str2[4]);
+        String reverse= "";
+
+        for(String str3:str2) {
+            System.out.println("Every word" + str3);
+            int length_ = str3.length();
+            for (int i = str3.length() - 1; i >= 0; i--) {
+                reverse = reverse + str3.charAt(i);
+
+
+            }   reverse+=" ";System.out.println("Reverse String-----"+reverse);
+        }
+
+    }
+    @Test
+    public void myFun3() {
+        WebDriver driver;
+        driver= new ChromeDriver();
+        WebElement element = driver.findElement(By.id("submit"));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", element);
+
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
+
+        js.executeScript("arguments[0].value='Hello';", element);
+
+        TakesScreenshot ts = (TakesScreenshot) driver;
+
+        // Capture screenshot as file
+        File source = ts.getScreenshotAs(OutputType.FILE);
+//        Set<String> set=   driver.getWindowHandles();
+//        for(String eachSet :set){
+//            if(){
+//
+//            }
+//        }
+
+    }
+    @Test
+    public void myIndices(){
+        int num [] =  {-20,10, 20,10, 25, 63, 96, 57};
+        int target= 30;
+        int length= num.length;
+        for( int i=0;i< length;i++){
+            for( int j=i+1;i< length;i++){
+                if(num[i]+num[j]==target){
+//                    int [] n= new int[] { i, j };
+//                    System.out.println("num1--  "+ n[0] +"   num2 -- "+n[1]);
+                    System.out.println("num1  "+ num[i]+"    num2      "+num[j]);
+                }
+            }
+        }
     }
 }
 
@@ -247,64 +330,6 @@ class OnlyCharsNoBuiltIn {
             }
         }
     }
-
-    @Test
-    public void myFun() {
-        String str = "The cat under the roof";
-        StringBuilder sb= new StringBuilder();
-        String reverse= "";
-
-        int length_ = str.length();
-
-        for (int i = length_ - 1; i >=0; i--) {
-            reverse= reverse+ str.charAt(i);
-
-        }
-        System.out.println("Reverse String-----"+reverse);
-    }
-
-    @Test
-    public void myFun2() {
-        String str = "The cat under the roof";  //ehT tac redun eht foor
-        String [] str2=str.split(" ");
-        System.out.println("Org String-----"+str2[0]+str2[1]+str2[2]+str2[3]+str2[4]);
-        String reverse= "";
-
-        for(String str3:str2) {
-            System.out.println("Every word" + str3);
-            int length_ = str3.length();
-            for (int i = str3.length() - 1; i >= 0; i--) {
-                reverse = reverse + str3.charAt(i);
-
-
-            }   reverse+=" ";System.out.println("Reverse String-----"+reverse);
-        }
-
-    }
-    @Test
-    public void myFun3() {
-        WebDriver driver;
-        driver= new ChromeDriver();
-        WebElement element = driver.findElement(By.id("submit"));
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].click();", element);
-
-        js.executeScript("arguments[0].scrollIntoView(true);", element);
-
-        js.executeScript("arguments[0].value='Hello';", element);
-
-        TakesScreenshot ts = (TakesScreenshot) driver;
-
-        // Capture screenshot as file
-        File source = ts.getScreenshotAs(OutputType.FILE);
-//        Set<String> set=   driver.getWindowHandles();
-//        for(String eachSet :set){
-//            if(){
-//
-//            }
-//        }
-
-    }
-
-
 }
+
+

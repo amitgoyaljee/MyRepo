@@ -270,4 +270,32 @@ class FibonacciExample1 {
     }
 
 
+class TwoSum {
+    public static int[] twoSum(int[] nums, int target) {
+        // Outer loop to pick the first number
+        for (int i = 0; i < nums.length; i++) {
+            // Inner loop to pick the second number
+            for (int j = i + 1; j < nums.length; j++) {
+                // Check if the two numbers add up to the target
+                if (nums[i] + nums[j] == target) {
+                    return new int[] { i, j }; // Return the indices
+                }
+            }
+        }
+        return new int[] {}; // Return empty array if no match found
+    }
 
+    public static void main(String[] args) {
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+
+        int[] result = twoSum(nums, target);
+        if (result.length == 2) {
+            System.out.println("Output: [" + result[0] + ", " + result[1] + "]");
+            System.out.println("Explanation: Because nums[" + result[0] + "] + nums[" + result[1] + "] == " +
+                    (nums[result[0]] + nums[result[1]]) + ", we return [" + result[0] + ", " + result[1] + "]");
+        } else {
+            System.out.println("No valid pair found.");
+        }
+    }
+}
