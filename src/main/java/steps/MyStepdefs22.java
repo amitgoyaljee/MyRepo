@@ -47,5 +47,6 @@ public class MyStepdefs22 {
 
     @Then("Message displayed Login Successfully")
     public void messageDisplayedLoginSuccessfully() {
+        driver.close();
     }
 }
