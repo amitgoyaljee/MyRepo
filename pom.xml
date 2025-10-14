@@ -243,10 +243,13 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.1</version>
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                        <!-- <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile> -->
-                    </suiteXmlFiles>
+                    <includes>
+                        <include>**/TestRunner.java</include>
+                    </includes>
+<!--                    <suiteXmlFiles>-->
+<!--                        <suiteXmlFile>testng.xml</suiteXmlFile>-->
+<!--                        &lt;!&ndash; <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile> &ndash;&gt;-->
+<!--                    </suiteXmlFiles>-->
                 </configuration>
             </plugin>
 

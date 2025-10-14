@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/my.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/feature/my.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyStepdefs22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/Jenkins_.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/Jenkins_.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/~$Git__.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Selenium_Project.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/my.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/enum_$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/enum_$Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/enum_2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/enum_2$Day.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/enum_2$Day.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/enum_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/enum_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Selenium_Project.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyStepdefs22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Map_$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Map_$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Map_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Map_.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OuterClass$InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OuterClass$InnerClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OuterClass3$InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OuterClass3$InnerClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/PostApi$ReqPojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/PostApi$ReqPojo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
