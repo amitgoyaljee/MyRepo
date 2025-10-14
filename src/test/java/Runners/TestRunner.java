@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/feature"},
          glue = {"steps"},
         tags="@amit",
+        plugin = {"pretty", "html:target/cucumber-reports.html"},
         dryRun = false,
         strict = true
 )
