@@ -111,16 +111,13 @@ public void rremoveDuplicateAdjacent() throws Exception {
         String reverse= "";
 
         for(String str3:str2) {
-            System.out.println("Every word" + str3);
-            int length_ = str3.length();
+            System.out.println("Every word---" + str3);
             for (int i = str3.length() - 1; i >= 0; i--) {
                 reverse = reverse + str3.charAt(i);
-
-
-            }   reverse+=" ";System.out.println("Reverse String-----"+reverse);
-        }
-
+            }   reverse+=" ";
+        }System.out.println("Reverse String-----"+reverse);
     }
+
     @Test
     public void myFun3() {
         WebDriver driver;

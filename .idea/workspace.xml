@@ -97,7 +97,7 @@
       <recent name="RestApi.JsonReader" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.inteviewPRG.myIndices">
+  <component name="RunManager" selected="TestNG.inteviewPRG.myFun2">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -204,9 +204,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.inteviewPRG.myFun2" />
         <item itemvalue="TestNG.inteviewPRG.myIndices" />
         <item itemvalue="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml" />
-        <item itemvalue="TestNG.inteviewPRG.myFun2" />
         <item itemvalue="Application.OnlyCharsNoBuiltIn" />
         <item itemvalue="TestNG.AAAA.myFun1" />
       </list>
