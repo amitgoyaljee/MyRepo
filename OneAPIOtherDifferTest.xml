@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+    <test name="Mytest1" >
+        <classes>
+            <class name="RestApi.DataOneApiToOther_MultipleUseOfApi" />
+        </classes>
+    </test>
+
+    <test name="Mytest2" >
+        <classes>
+            <class name="RestApi.DataOneApiToOther_MultipleUse" />
+        </classes>
+    </test>
+</suite>

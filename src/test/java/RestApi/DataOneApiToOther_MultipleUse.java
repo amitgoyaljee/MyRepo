@@ -14,7 +14,8 @@ class DataOneApiToOther_MultipleUse {
     //Runing with xml file OneApiOther
         @Test
         public void Deletereqres(ITestContext context) {
-          String id = (String) context.getAttribute("member_id");
+         // String id = (String) context.getAttribute("member_id"); // for single xsuite Test
+            String id = (String) context.getSuite().getAttribute("member_id");// for Multiple test in xml file
             System.out.println("id-----readyforDelete-------" + id);
             RestAssured.baseURI = "https://reqres.in/api/users/id";
             Response response1 = given().contentType(ContentType.JSON).header("x-api-key", "reqres-free-v1")

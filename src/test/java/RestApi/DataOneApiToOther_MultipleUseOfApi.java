@@ -36,8 +36,8 @@ public class DataOneApiToOther_MultipleUseOfApi {
         System.out.println("ccccccc"+response.prettyPrint());
         String id=response.jsonPath().get("id");
         System.out.println("id-------created-----"+id);
-        context.setAttribute("member_id",id);
-
+       // context.setAttribute("member_id",id); // for single Test
+        context.getSuite().setAttribute("member_id",id);// for Multiple test in xml file
     }
 
     @Test
