@@ -39,7 +39,8 @@ public void rremoveDuplicateAdjacent() throws Exception {
     for(int i=0;i<str.length();i++){
         int len= strBf.length();
        if(len> 0 && strBf.charAt(len-1)==str.charAt(i) ){
-           strBf.deleteCharAt(len-1);
+           //or
+         //  strBf.deleteCharAt(len-1);
        }else{
            strBf.append(str.charAt(i));
        }
