@@ -147,15 +147,18 @@ public void rremoveDuplicateAdjacent() throws Exception {
     }
     @Test
     public void myIndices(){
-        int num [] =  {-20,10, 20,10, 25, 63, 96, 57};
+        int num [] =  {0, 20,10, 30, 10, 20, 0};
+       // num= Arrays.stream(num).distinct().toArray();
         int target= 30;
         int length= num.length;
         for( int i=0;i< length;i++){
-            for( int j=i+1;i< length;i++){
+            for( int j=i+1;j< length;j++){
                 if(num[i]+num[j]==target){
-//                    int [] n= new int[] { i, j };
-//                    System.out.println("num1--  "+ n[0] +"   num2 -- "+n[1]);
-                    System.out.println("num1  "+ num[i]+"    num2      "+num[j]);
+                    int [] n= new int[] { i, j };
+                    System.out.println("["+ n[0] +" "+n[1]+"]"+ num[i] +","+num[j]);
+                    System.out.println("index1--"+ n[0] +" index2--"+n[1]);
+                    System.out.println("num1---"+ num[i]+"    num2---"+num[j]);
+                    System.out.println("////////////////////////////////");
                 }
             }
         }

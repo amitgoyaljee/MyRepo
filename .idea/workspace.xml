@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OneAPIOtherDifferTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUseOfApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUseOfApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUseOfApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUseOfApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/GfG2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/GfG2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,7 @@
       <recent name="RestApi.JsonReader" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml">
+  <component name="RunManager" selected="TestNG.inteviewPRG.myIndices">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -201,8 +204,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml" />
         <item itemvalue="TestNG.inteviewPRG.myIndices" />
+        <item itemvalue="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml" />
         <item itemvalue="TestNG.inteviewPRG.myFun2" />
         <item itemvalue="Application.OnlyCharsNoBuiltIn" />
         <item itemvalue="TestNG.AAAA.myFun1" />
