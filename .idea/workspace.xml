@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/my.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/feature/my.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyStepdefs22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/Jenkins_.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/Jenkins_.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/~$Git__.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Selenium_Project.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/my.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/enum_$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/enum_$Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/enum_2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/enum_2$Day.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/enum_2$Day.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/enum_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/enum_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Selenium_Project.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyStepdefs22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Map_$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Map_$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Map_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Map_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OuterClass$InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OuterClass$InnerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OuterClass3$InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OuterClass3$InnerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/PostApi$ReqPojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/PostApi$ReqPojo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,37 +53,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="1Z7m00o2az1Z96CZ18kPkjaa8MR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.TestRunner.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.SumDigit_Palin.sumofDigit.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/amitg/SeleniumProjects/Selenium_Project/src/test/java/Runners"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="TestNG" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\Runners" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\main\resources" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi\JsonReader" />
-      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\TestNG" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\Runner" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\feature" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\main\java\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="RestApi" />
@@ -67,14 +98,8 @@
       <recent name="test" />
       <recent name="RestApi.JsonReader" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi" />
-      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\main\java\test" />
-      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi\JsonReader" />
-      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.inteviewPRG.myWithoutSpaceOccurance">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -115,19 +140,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetApi" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestApi.*" />
+          <option name="PATTERN" value="Runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestApi" />
-      <option name="MAIN_CLASS_NAME" value="RestApi.GetApi" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,17 +173,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetApi.myURILogError" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SumDigit_Palin.sumofDigit" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestApi.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestApi" />
-      <option name="MAIN_CLASS_NAME" value="RestApi.GetApi" />
-      <option name="METHOD_NAME" value="myURILogError" />
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.SumDigit_Palin" />
+      <option name="METHOD_NAME" value="sumofDigit" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -188,14 +211,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.inteviewPRG.myWithoutSpaceOccurance" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="TestNG.SumDigit_Palin.sumofDigit" />
         <item itemvalue="Application.OnlyCharsNoBuiltIn" />
+        <item itemvalue="TestNG.inteviewPRG.myWithoutSpaceOccurance" />
         <item itemvalue="TestNG.GetApi.myURI" />
-        <item itemvalue="TestNG.GetApi" />
-        <item itemvalue="TestNG.GetApi.myURILogError" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -208,88 +232,6 @@
       <updated>1584198280348</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="362" y="17" width="571" height="638" key="#DataOneApiToOther_MultipleUseOfApi" timestamp="1759996553766">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="362" y="17" width="571" height="638" key="#DataOneApiToOther_MultipleUseOfApi/0.0.1280.672@0.0.1280.672" timestamp="1759996553766" />
-    <state x="93" y="93" width="1095" height="487" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1759480026075">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="93" y="93" width="1095" height="487" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.672@0.0.1280.672" timestamp="1759480026075" />
-    <state x="395" y="147" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1759642650554">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="395" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672@0.0.1280.672" timestamp="1759642650554" />
-    <state x="446" y="30" key="#com.intellij.ide.util.MemberChooser" timestamp="1759479281943">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="446" y="30" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672@0.0.1280.672" timestamp="1759479281943" />
-    <state x="345" y="13" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1759479229660">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="345" y="13" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.672@0.0.1280.672" timestamp="1759479229660" />
-    <state x="376" y="215" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1760334114217">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="376" y="215" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.672@0.0.1280.672" timestamp="1760334114217" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1759992197211">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1759992197211" />
-    <state width="1237" height="191" key="GridCell.Tab.0.bottom" timestamp="1760334274219">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="1237" height="191" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1760334274219" />
-    <state width="1237" height="191" key="GridCell.Tab.0.center" timestamp="1760334274219">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="1237" height="191" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1760334274219" />
-    <state width="1237" height="191" key="GridCell.Tab.0.left" timestamp="1760334274219">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="1237" height="191" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1760334274219" />
-    <state width="1237" height="191" key="GridCell.Tab.0.right" timestamp="1760334274219">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="1237" height="191" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1760334274219" />
-    <state width="1237" height="191" key="GridCell.Tab.1.bottom" timestamp="1760334274220">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="1237" height="191" key="GridCell.Tab.1.bottom/0.0.1280.672@0.0.1280.672" timestamp="1760334274220" />
-    <state width="1237" height="191" key="GridCell.Tab.1.center" timestamp="1760334274220">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="1237" height="191" key="GridCell.Tab.1.center/0.0.1280.672@0.0.1280.672" timestamp="1760334274220" />
-    <state width="1237" height="191" key="GridCell.Tab.1.left" timestamp="1760334274220">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="1237" height="191" key="GridCell.Tab.1.left/0.0.1280.672@0.0.1280.672" timestamp="1760334274220" />
-    <state width="1237" height="191" key="GridCell.Tab.1.right" timestamp="1760334274220">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="1237" height="191" key="GridCell.Tab.1.right/0.0.1280.672@0.0.1280.672" timestamp="1760334274220" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1759896544248">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1759896544248" />
-    <state x="349" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1759468528342">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="349" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1759468528342" />
-    <state x="346" y="92" width="588" height="488" key="find.popup" timestamp="1760333686449">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="346" y="92" width="588" height="488" key="find.popup/0.0.1280.672@0.0.1280.672" timestamp="1760333686449" />
-    <state x="91" y="41" key="new project wizard" timestamp="1759896853163">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="91" y="41" key="new project wizard/0.0.1280.672@0.0.1280.672" timestamp="1759896853163" />
-    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1760333675676">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1760333675676" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
