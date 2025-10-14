@@ -55,3 +55,19 @@ class enum_2 {
         }
     }
 }
+class ee{
+    public enum my{
+        s(1), f(2);
+        int c;
+        my(int c){
+           this.c=c;
+        }
+        public int getc(){
+            return c;
+        }
+        public static void main(String[] args) {
+            my m=my.s;
+            System.out.println("m.getc()----------"+m.getc());
+        }
+    }
+}

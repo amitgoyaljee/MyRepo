@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
         plugin = {
                 "pretty",
                 "json:target/cucumber-report.json",
-                "html:target/cucumber-html-report"
+                "html:target/cucumber-html-report",
+                "rerun:target/rerun.txt"    // rerun plugin to capture failed scenarios
         },
         dryRun = false,
         strict = true
@@ -21,3 +22,10 @@ import org.junit.runner.RunWith;
 public class TestRunner {
 
 }
+
+// Create a separate runner for rerun
+
+//Create a new runner class that uses the rerun.txt file to rerun only failed scenarios:
+
+
+

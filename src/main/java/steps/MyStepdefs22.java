@@ -31,7 +31,7 @@ public class MyStepdefs22 {
         System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\Selenium\\chromedriver.exe");
         driver=new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.google.com/");
+        driver.get("https://www.goo88888888gle.com/");
     }
 
     @When("User Navigate to LogIn Page")
