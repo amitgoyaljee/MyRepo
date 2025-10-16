@@ -14,6 +14,7 @@ public class PicoLoginSteps {
 
     private PicoContext picoContext;
 
+    // PicoContainer injects WebDriver and LoginPage
     public PicoLoginSteps(PicoContext picoContext) {
         this.picoContext=picoContext;
         this.driver = picoContext.getDriver();

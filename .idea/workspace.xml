@@ -5,69 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aa.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/PicoAddToCartSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/PicoLoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/PicoRemoveCartSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/logsImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PicoContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/feature/PicoContainer.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/PicoTestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/enum_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/enum_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/AAAA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/AAAA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/array_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/array_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/list_Palin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/list_Palin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUseOfApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUseOfApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/GetApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/GetApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/Deserial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/Deserial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/serial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/serial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/~$Git__.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_/JSExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_/JSExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/steps/MyStepdefs22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/MyStepdefs22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/ArrayToList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/ArrayToList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/GFGa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/GFGa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/GFGi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/GFGi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/aaa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/aaa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/aqaq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/aqaq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/AAAA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/AAAA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ArrayToList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ArrayToList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/FibonacciExample1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/FibonacciExample1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/GfG2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/GfG2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Main11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Main11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/fact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/fact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/list_Palin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/list_Palin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/power.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/power.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/secondCharOccurence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/secondCharOccurence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/secondLargestNumberInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/secondLargestNumberInAnArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/secondLargestNumberSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/secondLargestNumberSample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/series.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/series.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUseOfApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUseOfApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/SerialDeSerial/Deserial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/SerialDeSerial/Deserial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/SerialDeSerial/serial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/SerialDeSerial/serial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium_/JSExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium_/JSExecutor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
