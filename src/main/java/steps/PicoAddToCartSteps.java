@@ -9,7 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import utils.PicoContext;
 
 
-
+//    picoContext.setContext("itemName","Sauce Labs Backpack");
+// set this for other class
 public class PicoAddToCartSteps {
     private WebDriver driver;
     private PicoContext picoContext;

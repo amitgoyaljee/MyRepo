@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/PicoAddToCartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/PicoAddToCartSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/PicoLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/PicoLoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/PicoRemoveCartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/PicoRemoveCartSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,6 +246,17 @@
       <updated>1584198280348</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

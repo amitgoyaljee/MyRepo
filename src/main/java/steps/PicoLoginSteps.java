@@ -27,8 +27,6 @@ public class PicoLoginSteps {
 
     @When("I login with username {string} and password {string}")
     public void i_login_with_credentials(String username, String password) {
-//        System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\Selenium\\chromedriver.exe");
-//        driver=new ChromeDriver();
         driver.findElement(By.id("user-name")).sendKeys(username);
         driver.findElement(By.id("password")).sendKeys(password);
         driver.findElement(By.id("login-button")).click();
