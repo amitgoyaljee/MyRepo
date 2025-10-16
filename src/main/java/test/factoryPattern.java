@@ -166,7 +166,8 @@ class aq {
     }
 }
 
-class aaa extends aq {
+class
+aaa extends aq {
 
     public void printPP() {
         System.out.println("main");

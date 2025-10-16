@@ -7,6 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.List;
 
@@ -30,6 +31,8 @@ public class MyStepdefs22 {
     public void userIsOnHomePage() {
         System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\Selenium\\chromedriver.exe");
         driver=new ChromeDriver();
+       // ChromeOptions opt= new ChromeOptions();
+      //  opt.addArguments("--headless"); // Run in headless mode
         driver.manage().window().maximize();
         driver.get("https://www.goo88888888gle.com/");
     }

@@ -16,7 +16,9 @@ class DataOneApiToOther_MultipleUse {
         public void Deletereqres(ITestContext context) {
          // String id = (String) context.getAttribute("member_id"); // for single xsuite Test
             String id = (String) context.getSuite().getAttribute("member_id");// for Multiple test in xml file
+
             System.out.println("id-----readyforDelete-------" + id);
+
             RestAssured.baseURI = "https://reqres.in/api/users/id";
             Response response1 = given().contentType(ContentType.JSON).header("x-api-key", "reqres-free-v1")
                     .when().delete();
@@ -25,7 +27,7 @@ class DataOneApiToOther_MultipleUse {
         }
 
     @Test
-    public void Deletereqres222(ITestContext context) {
+    public void Deletereqres222( ) {
         System.out.println("id111------------" + id111);
         RestAssured.baseURI = "https://reqres.in/api/users/798";
         Response response1 = given().contentType(ContentType.JSON).header("x-api-key", "reqres-free-v1")

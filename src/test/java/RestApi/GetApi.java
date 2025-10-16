@@ -184,7 +184,7 @@ public void Postreq() {
 
     @Test
     public void myURILogError() {
-       // RestAssured.baseURI = "https://api.github.com/users/zellwk/repos";
+       //RestAssured.baseURI = "https://api.github.com/users/zellwk/repos";
         RestAssured.baseURI = "https://api.github.com/users/ze===lwk/repos";
         Response res = given().contentType(ContentType.JSON).when().get();
         res.then()

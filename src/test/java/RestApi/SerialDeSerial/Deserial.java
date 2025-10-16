@@ -6,6 +6,8 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
+import static io.restassured.RestAssured.given;
+
 public class Deserial {
     //Deserialization in Rest Assured is converting Responsebody back to java object with the support of pojo classes.
 
@@ -16,17 +18,24 @@ public class Deserial {
             RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
 
             // GET request and deserialize response into User class
-            User user = RestAssured
-                    .given()
+            User user =
+                    given()
                     .when()
                     .get("/users/1")
                     .then()
                     .statusCode(200)
                     .extract()
                     .as(User.class); // 🔥 Deserialization here
-            // Deserialize JSON array to User[]
+            //or
+//            Response response= RestAssured
+//                    .given()
+//                    .when()
+//                    .get("/users/1");
+//            // Deserialize JSON array to User[]
 //  User[] usersArray = response.as(User[].class);
-
+//            for (User user : usersArray) {
+//                System.out.println("ID: " + user.getId());
+//            }
             // Output the deserialized data
             System.out.println("ID: " + user.getId());
             System.out.println("Name: " + user.getName());
@@ -43,8 +52,7 @@ public class Deserial {
     @Test
     public void getPojoArrayDummy() throws JsonMappingException, JsonProcessingException
     {
-    Response response = RestAssured
-            .given()
+    Response response = given()
             .when()
             .get("https://mock-api/users")  // Replace with actual API returning above JSON
             .then()

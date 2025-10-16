@@ -41,7 +41,7 @@ public class DataOneApiToOther_MultipleUseOfApi {
     }
 
     @Test
-    public void PostreqMap2(ITestContext context) {
+    public void PostreqMap2() {
 
         RestAssured.baseURI = "https://reqres.in/api/users";
 

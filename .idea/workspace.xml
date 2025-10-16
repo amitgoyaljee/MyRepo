@@ -5,9 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/aa.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/PicoAddToCartSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/PicoLoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/PicoRemoveCartSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/logsImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PicoContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/feature/PicoContainer.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/PicoTestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/enum_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/enum_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/AAAA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/AAAA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/array_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/array_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/list_Palin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/list_Palin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUseOfApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUseOfApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/GetApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/GetApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/Deserial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/Deserial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/serial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/serial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/~$Git__.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_/JSExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_/JSExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/steps/MyStepdefs22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/MyStepdefs22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/ArrayToList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/ArrayToList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/GFGa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/GFGa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/GFGi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/GFGi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/aaa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/aaa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/aqaq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/aqaq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/AAAA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/AAAA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ArrayToList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ArrayToList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/FibonacciExample1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/FibonacciExample1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/GfG2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/GfG2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Main11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Main11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/fact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/fact.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/list_Palin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/list_Palin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/power.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/power.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/secondCharOccurence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/secondCharOccurence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/secondLargestNumberInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/secondLargestNumberInAnArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/secondLargestNumberSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/secondLargestNumberSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/series.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/series.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUseOfApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUseOfApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/SerialDeSerial/Deserial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/SerialDeSerial/Deserial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/SerialDeSerial/serial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/SerialDeSerial/serial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium_/JSExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium_/JSExecutor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,25 +102,47 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.OnlyCharsNoBuiltIn.executor": "Run",
+    "Application.TestInheritance2.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.ee$my.executor": "Run",
+    "Application.secondLargestNumberInAnArray.executor": "Run",
+    "Cucumber Java.Feature: PicoContainer.executor": "Run",
+    "JUnit.AAAA.loginTest.executor": "Run",
     "JUnit.FailedTestsRunner (1).executor": "Run",
     "JUnit.FailedTestsRunner.executor": "Run",
+    "JUnit.PicoTestRunner.executor": "Run",
     "JUnit.ReRun.executor": "Run",
+    "JUnit.Runner.executor": "Run",
     "JUnit.TestRunner.executor": "Run",
+    "JUnit.logsImplementation.executor": "Run",
+    "JUnit.logsImplementation.loginTest.executor": "Debug",
+    "JUnit.logs_.loginTest.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AAAA.DuplicateRemoveArray.executor": "Run",
+    "TestNG.AAAA.MissingNoInArray.executor": "Run",
+    "TestNG.AAAA.SortArray.executor": "Run",
     "TestNG.AAAA.myFun1.executor": "Run",
     "TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml.executor": "Run",
+    "TestNG.Deserial.getPojoArrayDummy (1).executor": "Run",
+    "TestNG.Deserial.getPojoArrayDummy.executor": "Run",
+    "TestNG.Deserial.getPojoFromProgramInfoObject (1).executor": "Run",
+    "TestNG.Deserial.getPojoFromProgramInfoObject.executor": "Run",
+    "TestNG.GetApi.myURILogError.executor": "Run",
     "TestNG.SumDigit_Palin.sumofDigit.executor": "Run",
     "TestNG.inteviewPRG.myFun2.executor": "Run",
     "TestNG.inteviewPRG.myIndices.executor": "Run",
     "TestNG.inteviewPRG.myWithoutSpaceOccurance.executor": "Run",
+    "TestNG.inteviewPRG.rremoveAdjacent.executor": "Run",
     "TestNG.inteviewPRG.rremoveDuplicateAdjacent.executor": "Run",
+    "TestNG.list_Palin.missingMultipleNoinArray.executor": "Run",
+    "TestNG.list_Palin.missingMultipleinArray.executor": "Run",
+    "TestNG.list_Palin.missingOnesinArray.executor": "Run",
+    "TestNG.serial.tosetProgramDetails.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/amitg/SeleniumProjects/Selenium_Project",
+    "last_opened_file_path": "C:/Users/amitg/SeleniumProjects/Selenium_Project/src/main/java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
@@ -71,11 +153,11 @@
       <recent name="TestNG" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\main\java" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\Runners" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\main\resources" />
-      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi\JsonReader" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java" />
@@ -85,14 +167,14 @@
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\main\java\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Runners" />
+      <recent name="Steps" />
       <recent name="RestApi" />
       <recent name="RestApi.SerialDeSerial" />
       <recent name="TestNG" />
-      <recent name="test" />
-      <recent name="RestApi.JsonReader" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.inteviewPRG.rremoveDuplicateAdjacent">
+  <component name="RunManager" selected="JUnit.PicoTestRunner">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -120,12 +202,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnlyCharsNoBuiltIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prg.OnlyCharsNoBuiltIn" />
+    <configuration name="Feature: PicoContainer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/feature/PicoContainer.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Selenium_Project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: PicoContainer" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prg.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,35 +221,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/OneAPIOtherDifferTest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="inteviewPRG.myFun2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Prg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Prg" />
-      <option name="MAIN_CLASS_NAME" value="Prg.inteviewPRG" />
-      <option name="METHOD_NAME" value="myFun2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="inteviewPRG.myIndices" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AAAA.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
@@ -170,40 +230,66 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Prg" />
-      <option name="MAIN_CLASS_NAME" value="Prg.inteviewPRG" />
-      <option name="METHOD_NAME" value="myIndices" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="Prg.AAAA" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inteviewPRG.rremoveDuplicateAdjacent" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PicoTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prg.*" />
+          <option name="PATTERN" value="Runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Prg" />
-      <option name="MAIN_CLASS_NAME" value="Prg.inteviewPRG" />
-      <option name="METHOD_NAME" value="rremoveDuplicateAdjacent" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.PicoTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="logsImplementation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.logsImplementation" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="logsImplementation.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.logsImplementation" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.inteviewPRG.rremoveDuplicateAdjacent" />
-        <item itemvalue="TestNG.inteviewPRG.myFun2" />
-        <item itemvalue="TestNG.inteviewPRG.myIndices" />
-        <item itemvalue="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml" />
-        <item itemvalue="Application.OnlyCharsNoBuiltIn" />
+        <item itemvalue="JUnit.PicoTestRunner" />
+        <item itemvalue="Cucumber Java.Feature: PicoContainer" />
+        <item itemvalue="JUnit.logsImplementation.loginTest" />
+        <item itemvalue="JUnit.AAAA.loginTest" />
+        <item itemvalue="JUnit.logsImplementation" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +327,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Selenium_/JSExecutor.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -363,6 +449,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/selenide/selenide_.java</url>
           <line>21</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/logsImplementation.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/RestApi/DeleteApi.java</url>

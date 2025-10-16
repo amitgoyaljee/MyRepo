@@ -41,7 +41,7 @@ public class list_Palin {
         int n = 123;
         int sum = 0;
         while (n > 0 || n > 9) {
-            sum =sum+ n % 10;
+            sum = sum + n % 10;
             n = n / 10;
         }
         System.out.println("sum-------------" + sum);
@@ -59,15 +59,16 @@ public class list_Palin {
             System.out.println("Palindrom");
         }
     }
+
     @Test
     public void stringPalinBuilder() {
         String str = "nitina";
-        StringBuilder str1=new StringBuilder(str);
+        StringBuilder str1 = new StringBuilder(str);
         String rev = str1.reverse().toString();
         System.out.println("rev-------------" + rev);
         if (str1.equals(rev)) {
             System.out.println("Pal indrom");
-        }else {
+        } else {
             System.out.println("Not  Palindrom");
         }
     }
@@ -83,11 +84,12 @@ public class list_Palin {
                 map.put(ch2, map.get(ch2) + 1);
             }
         }
-        System.out.println("countCharFrequencies---"+map);
+        System.out.println("countCharFrequencies---" + map);
 
     }
+
     public static void countFrequencies2(ArrayList<String> list) {
-        String [] chars = list.toString().split(" ");
+        String[] chars = list.toString().split(" ");
         Map<String, Integer> map = new HashMap<>();
         for (String ch2 : chars) {
             if (!map.containsKey(ch2)) {
@@ -101,11 +103,12 @@ public class list_Palin {
             System.out.println(en.getValue());
         }
     }
+
     public static void countFrequencies(ArrayList<String> list) {
         Set<String> st = new HashSet<String>(list);
         for (String s : st)
             System.out.println(s + ": " +
-                    Collections. frequency(list, s));///----------frequency
+                    Collections.frequency(list, s));///----------frequency
     }
 
     public static void main(String[] args) {
@@ -137,15 +140,15 @@ public class list_Palin {
             for (int j = i + 1; j < numbers.length; j++) {
 
                 if (numbers[i] - numbers[j] == 1) {
-                }else{
+                } else {
                     System.out.println("missingNumber-  2nd method--------" + numbers[i]);
-                    numbers[j]=  numbers[j]+1;
+                    numbers[j] = numbers[j] + 1;
                     System.exit(0);
                 }
 
-                }
             }
         }
+    }
 
     @Test // make a list then chk n-1==1 not then add (n-1)+1
     public void missingMultipleNoinArray() {
@@ -182,15 +185,18 @@ public class list_Palin {
     }
 
     @Test
-    public void missingOnesinArray() {
-        int[] ints = {1, 2, 3, 12};
-       Arrays.stream(ints).sorted();
-        for (int i = 0; i < ints.length; i++) {
-            if (ints[i] - ints[i - 1] == 1) {//i-1 is not present
-            } else {
-                Arrays.stream(ints).sorted();
+    public void missingMultipleinArray() {
+        int[] num = {1, 2, 5, 8};
+        // Make sure the array is sorted
+        Arrays.sort(num);
+        System.out.println("Missing numbers:");
+        for (int i = 0; i < num.length - 1; i++) {
+            int current = num[i];
+            int next = num[i + 1];  // if both missing & next are same then no missing increase
+            // Check for numbers between current and next
+            for (int missing = current + 1; missing < next; missing++) {
+                System.out.println(missing);
             }
         }
-        System.out.println(ints);
     }
 }

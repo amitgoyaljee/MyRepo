@@ -32,11 +32,12 @@ public class serial {
 
     @Test
     public void tosetProgramDetails(){
-        User user = new User();
+        User user = new User();  // Java object
         user.setName("Amit");
         RestAssured.baseURI="https://jsonplaceholder.typicode.com/users/1111";
         Response res =  RestAssured
-                .given().contentType("application/json; charset=UTF-8").body(user)
+                .given().contentType("application/json; charset=UTF-8")
+                .body(user) //-----//
                 .when()
                 .put();// post -> need to pass all values, put & patch working
 

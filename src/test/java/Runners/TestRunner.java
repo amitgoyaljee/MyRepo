@@ -25,7 +25,29 @@ public class TestRunner {
 
 // Create a separate runner for rerun
 
+//@RunWith(Cucumber.class)
+//@CucumberOptions(
+//        features = "@target/rerun.txt",   // note the '@' symbol - runs failed scenarios listed in this file
+//        glue = {"steps"},
+//        plugin = {
+//                "pretty",
+//                "html:target/cucumber-rerun-report.html",
+//                "json:target/cucumber-rerun.json"
+//        },
+//        monochrome = true
+//)
+//public class ReRun {
+//}
+
 //Create a new runner class that uses the rerun.txt file to rerun only failed scenarios:
 
 
 
+//<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+//<suite name="Cucumber TestNG Suite">
+//    <test name="Run Cucumber Feature">
+//        <classes>
+//            <class name="Runner"/>
+//        </classes>
+//    </test>
+//</suite>

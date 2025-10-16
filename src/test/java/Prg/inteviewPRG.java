@@ -22,7 +22,8 @@ public class inteviewPRG {
         for (char chEach : chArray) {
             int len= strBf.length();
             if(len> 0 && strBf.charAt(len-1)==chEach ){
-                strBf.deleteCharAt(len-1);
+                //or
+              //  strBf.deleteCharAt(len-1);
             }else{
                 strBf.append(chEach);
             }
@@ -160,6 +161,18 @@ public void rremoveDuplicateAdjacent() throws Exception {
                 }
             }
         }
+    }
+    @Test
+    public void SortArray() {
+        int num[] = {1, 2, 4, 3,8,6};
+
+        for (int i = 0; i < num.length-1; i++) {
+            if (num[i] > num[i + 1]) {
+                int temp = num[i];
+                num[i] = num[i + 1];
+                num[i + 1] = temp;
+            }
+        } System.out.println(Arrays.toString(num));
     }
 }
 
