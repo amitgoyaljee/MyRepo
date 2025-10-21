@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-10-17T12:06:45.049Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2904248000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Valid login",
+        "description": "",
+        "id": "login-to-saucedemo;valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 567211700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I open the SauceDemo login page",
+            "match": {
+              "location": "steps.PicoLoginSteps.i_open_the_sauce_demo_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 629825400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "fail login with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 54
+                }
+              ],
+              "location": "steps.PicoLoginSteps.f_login_with_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pico"
+          }
+        ]
+      }
+    ],
+    "name": "Login to SauceDemo",
+    "description": "",
+    "id": "login-to-saucedemo",
+    "keyword": "Feature",
+    "uri": "file:src/test/feature/PicoContainer.feature",
+    "tags": []
+  }
+]

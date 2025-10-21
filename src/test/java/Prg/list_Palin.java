@@ -78,14 +78,12 @@ public class list_Palin {
         Map<Character, Integer> map = new HashMap<>();
         for (Character ch2 : chars) {
             if (!map.containsKey(ch2)) {
-
                 map.put(ch2, 1);
             } else {
                 map.put(ch2, map.get(ch2) + 1);
             }
         }
         System.out.println("countCharFrequencies---" + map);
-
     }
 
     public static void countFrequencies2(ArrayList<String> list) {
@@ -168,7 +166,6 @@ public class list_Palin {
         // or
         List<Integer> numbers1 = Arrays.asList(intss);
 
-
         System.out.println(numbers1);
         Collections.sort(numbers);
         System.out.println(numbers);
@@ -188,15 +185,66 @@ public class list_Palin {
     public void missingMultipleinArray() {
         int[] num = {1, 2, 5, 8};
         // Make sure the array is sorted
-        Arrays.sort(num);
+       // Arrays.sort(num);
+        for (int i = 0; i < num.length - 1; i++) {
+            for (int ii = i+1; ii < num.length - 1; ii++) {
+               if(num[i]>num[ii]){
+                   int temp=num[i];
+                   num[i]=num[ii];
+                   num[ii]=temp;
+               }
+            }
+        }
+        int sum = 0;
         System.out.println("Missing numbers:");
+
+        int missArry[]=new int[num.length];// missing array
+        int arrsi=0;// missing array
+
         for (int i = 0; i < num.length - 1; i++) {
             int current = num[i];
             int next = num[i + 1];  // if both missing & next are same then no missing increase
             // Check for numbers between current and next
+
             for (int missing = current + 1; missing < next; missing++) {
                 System.out.println(missing);
+
+                // create array
+                missArry[arrsi++]=missing;
+              //  arrsi++;
+                sum += missing;
             }
         }
+        System.out.println("--sum of missing---" + sum);
+        System.out.println("--Arry missing---" + Arrays.toString(missArry));
     }
+
+    @Test
+    public void masking() {
+        String str = "1232145";// ***2145
+        // String str= Integer.toString(n);
+        int len = str.length();
+        String sub = str.substring(len - 4);
+
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < len - 4; i++) {
+            sb.append("*");
+        }
+        sb.append(sub);
+        System.out.println("Mask------" + sb);
+
+    }
+
+    @Test
+    public void subStringMiddle() {
+        String str = "abcddt";
+        int len = str.length();
+        int len1 = len / 2;
+        if (len % 2 == 0) {
+            System.out.println("Middle chsrs are " + str.substring(len1 - 1, len1 + 1));
+        } else {
+            System.out.println("Middle chsrs are " + str.substring(len / 2, (len + 1) / 2));
+        }
+    }
+
 }

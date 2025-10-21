@@ -39,3 +39,20 @@ class mainClass {
 //}
 
 //  o/p will be child
+
+class StaticBlockExample {
+    static int a;
+
+    static {
+        System.out.println("Static block is executed.");
+        a = 10;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Main method started.");
+        System.out.println("Value of a: " + a);
+    }
+    //Static block is executed.
+    //Main method started.
+    //Value of a: 10
+}

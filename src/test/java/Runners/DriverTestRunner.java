@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/feature"},
          glue = {"steps"},
-        tags="@amit",
+        tags="@drive",
         plugin = {
                 "pretty",
                 "json:target/cucumber-report.json",
@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
         strict = true
 )
 
-public class TestRunner {
+public class  DriverTestRunner {
 
 }
 

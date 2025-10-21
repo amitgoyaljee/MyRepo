@@ -77,7 +77,10 @@ public class  Map_ {
             map.put("vaibhav", 20);
             System.out.println(map);
             System.out.println("Sorting by keys");
-            map.entrySet().stream().sorted(Entry.comparingByKey()).forEach(x -> System.out.println(x));
+            map.entrySet().stream()
+                    .sorted(Map.Entry.comparingByKey(Comparator.reverseOrder()))
+                    .forEach(System.out::println);
+            map.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(x -> System.out.println(x));
             System.out.println("Sorting by Values");
             map.entrySet().stream().sorted(Entry.comparingByValue()).forEach(x -> System.out.println(x));
         }

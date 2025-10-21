@@ -33,4 +33,12 @@ public class PicoLoginSteps {
 
     }
 
+    @When("fail login with username {string} and password {string}")
+    public void f_login_with_credentials(String username, String password) {
+        driver.findElement(By.id("user-name")).sendKeys(username);
+        driver.findElement(By.id("password")).sendKeys(password);
+        driver.findElement(By.id("login-button")).click();
+
+    }
+
 }

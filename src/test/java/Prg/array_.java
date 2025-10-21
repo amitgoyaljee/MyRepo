@@ -9,16 +9,16 @@ array_ {
     @Test// length length() size() use
     public void myyy(){
         int[] arr = {1, 2, 3};
-        System.out.println(arr.length);///////////////////length
+        System.out.println(arr.length);///////////////////    length
 
         String name = "Java";
-        System.out.println(name.length());//////////////////////////length())
+        System.out.println(name.length());//////////////////////////    length())
 
         List<String> fruits = new ArrayList<>();
         fruits.add("Apple");
         fruits.add("Banana");
 
-        System.out.println(fruits.size());//////////////////////////////size()
+        System.out.println(fruits.size());//////////////////////////////    size()
     }
 }
 
@@ -141,8 +141,10 @@ class secondLargestNumberSample {
     public static void main(String args[]) {
         int array[] = {10, 20, 25, 63, 96, 57};
         int size = array.length;
+        Arrays.sort(array);//sorting array
+        //or
+        Arrays.stream(array).sorted();//sorting array
 
-        Arrays.stream(array).sorted();
         System.out.println("array" + Arrays.toString(array));
         System.out.println("array" + array);
 
@@ -164,7 +166,7 @@ class secondCharOccurence {
             for (int j = i + 1; j < size; j++) {
                 if (array[i] == array[j]) {
                     System.out.println(array[i]);
-                    System.exit(0);
+                    System.exit(0); //output  a
                 }
             }
         }

@@ -3,8 +3,8 @@ package test;
 //In Java, enum (short for enumeration-गणना) is a special data type used
 // to define a fixed set of constants.
          //Enum constants are public, static, and final
-            //You can't create new instances at runtime
-             //You can use enums in collections, maps, etc.
+                //You can't create new instances at runtime
+                           //You can use enums in collections, maps, etc.
 public class enum_ {
     public enum Status {
         SUCCESS(200),
@@ -55,8 +55,8 @@ class enum_2 {
         }
     }
 }
-class ee{
-    public enum my{
+// no need of any class
+    enum my{
         s(1), f(2);
         int c;
         my(int c){
@@ -68,8 +68,6 @@ class ee{
         public static void main(String[] args) {
             my m=my.s;
             System.out.println("m.getc()----------"+m.getc());
+            System.out.println("my.s----------"+my.s);
         }
     }
-
-
-}

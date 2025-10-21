@@ -33,6 +33,15 @@ public class Log {
     // Debug Level Logs
     public static void debug(String message) {
         logger.debug(message);
+        logger.info("Application started");
+
+        int a = 5, b = 3;
+        logger.debug("Values: a=" + a + ", b=" + b);
+
+        int sum = a + b;
+        logger.debug("Sum = " + sum);
+
+        logger.info("Application finished");
     }
 
 

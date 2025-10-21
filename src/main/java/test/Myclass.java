@@ -106,7 +106,7 @@ class  ClassCastException_ {
     public static void main(String[] args) {
         SuperClass superObject = new SuperClass();
         SubClass subObject = new SubClass();
-        //superObject = subObject; // Valid statement
+        superObject = subObject; // Valid statement
      //  subObject = superObject; //Class cast exception here----compile time
         subObject =(SubClass) superObject;   //Class cast exception here----Run time
     }

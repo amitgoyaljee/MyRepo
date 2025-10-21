@@ -187,9 +187,11 @@ public class String_ {
     @Test
     public void subString_() {
         String str = "abcdef name is amit";
+        int len= str.length();
         System.out.println(str.substring(1, 3));//bc   last index ignore always
         System.out.println(str.substring(3));//def name is amit, ignore first 3(0,1,2)
     }
+
 
 }
 

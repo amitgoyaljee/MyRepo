@@ -10,7 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class JsonReader {
+public class  JsonReader {
     @Test
     public void readJsonPojo1() throws IOException {
         String filePath = "src/test/java/RestApi/JsonReader/JsonData.json";
@@ -84,11 +84,11 @@ public class JsonReader {
         String name = nameNode.asText();
         System.out.println(name);
         JsonNode ageNode = node.get("age");
-        int age = ageNode.asInt();
+        int age = ageNode.asInt();// as Int must
         System.out.println(age);
         JsonNode array = node.get("technologies");
         JsonNode jsonNode = array.get(1);  // can not use []
-        String techStr = jsonNode.asText(); // as must
+        String techStr = jsonNode.asText(); // as Text must
         System.out.println(techStr);
         JsonNode child = node.get("nestedObject");
         JsonNode childField = child.get("field");

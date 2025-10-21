@@ -70,8 +70,7 @@ class GenerateBill {
 }
 
 // Program to remove duplicates from a List in Java 8
-class
-Duplicate_1_2
+class Duplicate_1_2
 {
     public static void main(String[] args)
     {
@@ -95,26 +94,37 @@ Duplicate_1_2
         System.out.println("ArrayList with duplicates removed: "
                 + newList);
 ///////////22222222222222
-        Set<Integer> set = new HashSet<Integer>(list);
+        //Set<Integer> set1 = new HashSet<Integer>(Arrays.asList(arr));
+        Set<Integer> set = new HashSet<Integer>(Arrays.asList(arr));
         System.out.println("ArrayList with duplicates removed using set: "
                 + set);
     }
 }
 class Duplicate_3{
     public static void removeDuplicateElements(int arr[], int n){
-        System.out.print("---with duplicate--");
+        System.out.println("---with duplicate--");
         for (int num : arr) {
-            System.out.print(  num);
+            System.out.println(num);
         }
+        //or  print Array
+            System.out.println(Arrays.toString(arr));
+
         int[] temp = new int[n];
+        int j=0;
         for (   int i=0; i<n-1; i++){
             if (arr[i] != arr[i+1]){
-                temp[i] = arr[i+1];
+                temp[j++] = arr[i];
                 // System.out.print(temp[i]);
             }
-        }
+        } temp[j++] = arr[arr.length - 1]; // Last element
+
+
         for (int num : temp) {
-            System.out.print("-----"+num);
+            System.out.println("-----"+num); // will print 0 0 blank space
+        }
+        System.out.println("--temp.length---" + temp.length);
+        for (int k = 0; k < j; k++) {  // up to j
+            System.out.println("-----" + temp[k]);
         }
     }
 
@@ -130,29 +140,16 @@ class SortArray {
     public static void main(String[] args) {
         int[] numbers = {5, 2, 8, 1, 3};
         // Bubble Sort using for loop
+        int temp;
         for (int i = 0; i < numbers.length - 1; i++) {
-            for (int j = 0; j < numbers.length - 1; j++) {
-              //  for (int j = 0; j < numbers.length - 1-i; j++) {//numbers.length - 1 - i avoids comparing already sorted elements.
-                if (numbers[j] > numbers[j + 1]) {
-                    // Swap
-                    int temp = numbers[j];
-                    numbers[j] = numbers[j + 1];
-                    numbers[j + 1] = temp;
+            for (int j = i + 1; j < numbers.length - 1; j++) {
+                if (numbers[i] > numbers[j]) {
+                    temp = numbers[i];
+                    numbers[i] = numbers[j];
+                    numbers[j] = temp;
                 }
             }
         }
-
-//        for (int i = 0; i < numbers.length - 1; i++) {
-//            int temp;
-//            for (int j = i + 1; j < numbers.length - 1; j++) {
-//
-//                if (numbers[i] > numbers[j]) {
-//                    temp = numbers[i];
-//                    numbers[i] = numbers[j];
-//                    numbers[j] = temp;
-//                }
-//            }
-//        }
         // Print sorted array
         for (int num : numbers) {
             System.out.print(num + " ");
@@ -229,3 +226,31 @@ class GFGi {
             System.out.println(list);  // Output: [Apple, Banana, Orange]
         }
     }
+class UniqueNumberRange {
+    // Function to check if all digits in the number are unique
+    public static boolean hasUniqueDigits(int number) {
+        boolean[] seen = new boolean[10]; // To track digits 0-9
+        while (number > 0) {
+            int digit = number % 10;
+            if (seen[digit]) {// intially false if found then return false otherwise true
+                System.out.println("----"+seen[digit]);
+                return false; // Duplicate digit found
+            }
+            System.out.println("+++++++"+seen[digit]);
+            seen[digit] = true;
+            System.out.println("************"+seen[digit]);
+            number /= 10;
+        }
+        return true;
+    }
+    public static void main(String[] args) {
+        int start = 1234;
+        int end = 1244;
+        System.out.println("Unique-digit numbers from " + start + " to " + end + ":");
+        for (int i = start; i <= end; i++) {
+            if (hasUniqueDigits(i)) {
+                System.out.println(i);
+            }
+        }
+    }
+}
