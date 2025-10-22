@@ -108,6 +108,17 @@ class Duplicate_3{
         }
         //or  print Array
             System.out.println(Arrays.toString(arr));
+// sort Array
+        int tempp;
+        for (int i = 0; i < arr.length ; i++) {
+            for (int j = i + 1; j < arr.length ; j++) {
+                if (arr[i] > arr[j]) {
+                    tempp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = tempp;
+                }
+            }
+        }
 
         int[] temp = new int[n];
         int j=0;
@@ -141,8 +152,8 @@ class SortArray {
         int[] numbers = {5, 2, 8, 1, 3};
         // Bubble Sort using for loop
         int temp;
-        for (int i = 0; i < numbers.length - 1; i++) {
-            for (int j = i + 1; j < numbers.length - 1; j++) {
+        for (int i = 0; i < numbers.length ; i++) {
+            for (int j = i + 1; j < numbers.length ; j++) {
                 if (numbers[i] > numbers[j]) {
                     temp = numbers[i];
                     numbers[i] = numbers[j];
@@ -234,6 +245,7 @@ class UniqueNumberRange {
             int digit = number % 10;
             if (seen[digit]) {// intially false if found then return false otherwise true
                 System.out.println("----"+seen[digit]);
+                System.out.println("---- -------"+digit);
                 return false; // Duplicate digit found
             }else
             System.out.println("+++++++"+seen[digit]);

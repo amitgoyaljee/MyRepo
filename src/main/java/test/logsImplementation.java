@@ -9,6 +9,8 @@ import utils.Log;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.junit.Assert.assertEquals;
+
 public class logsImplementation {
 
     private static Logger log = LogManager.getLogger(Log.class);
@@ -18,7 +20,7 @@ public class logsImplementation {
 
     WebDriver driver;
     @Test
-        public void loginTest() {
+        public void loginTest() { //info erroe warn debug fatal
         System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\Selenium\\chromedriver.exe");
         driver=new ChromeDriver();
         driver.manage().window().maximize();
@@ -31,11 +33,29 @@ public class logsImplementation {
             // Your test code
             log.error("Login test completed error");
 
+        try {
+            assertEquals(401, 400);
+            log.info("Login test passed for invalid credentials.");
+        } catch (AssertionError e) {
+            log.error("Login test failed! Expected 401 but got " + 401, e);
+            throw e; // rethrow to mark the test as failed
+        }
         log.warn("Login test completed warn");
 
         driver .close();
 
     }
     }
+
+// 111111111111111<dependencies>
+//    <!-- Core Log4j2 API -->
+//222222222222222222
+//    create log4j2.xml file  set location og log and format time+
+// 333333333333
+//  private static Logger log = LogManager.getLogger(Log.class);
+//     log.warn("Login test completed warn");
+
+//        ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < OFF
+
 
 

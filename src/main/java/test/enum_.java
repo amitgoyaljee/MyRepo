@@ -26,6 +26,7 @@ public class enum_ {
         Status s = Status.ERROR;
         System.out.println(s);            // ERROR
         System.out.println(s.getCode());  // 500
+        System.out.println(Status.SUCCESS.getCode()); // 200 right way to call
 
 
     }
