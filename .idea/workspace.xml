@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PojoMap/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PojoMap/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

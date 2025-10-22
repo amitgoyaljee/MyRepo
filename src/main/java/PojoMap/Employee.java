@@ -54,7 +54,7 @@ class Main {
 
         // Store employees in a Map
         Map<Integer, Employee> employeeMap = new HashMap<>();
-        employeeMap.put(1, emp1);//  employeeMap.put(emp1.getId(), emp1);
+        employeeMap.put(myEnum.TransId1.getTransId1(), emp1);//  employeeMap.put(emp1.getId(), emp1);
         employeeMap.put(2, emp2);
 
         // Retrieve and print employee by ID
@@ -82,6 +82,24 @@ class MainWithJavaObject {
     }
 }
 
+enum myEnum {
+    TransId1(1), TransId2(2);
+    int c;
+    myEnum(int c){
+        this.c=c;
+    }
+    public int getTransId1(){
+        return c;
+    }
+//    public static void main(String[] args) {
+//        myEnum m= myEnum.s;
+//
+//        System.out.println("m.getc()----------"+m.getc());
+//        System.out.println("my.s----------"+ myEnum.s.getc());
+//        System.out.println("my.s----------"+ myEnum.y.getc());
+//
+//    }
+}
 
 
 
