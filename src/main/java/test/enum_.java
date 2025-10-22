@@ -57,7 +57,7 @@ class enum_2 {
 }
 // no need of any class
     enum my{
-        s(1), f(2);
+        s(1), faaa1(2);
         int c;
         my(int c){
            this.c=c;
@@ -69,7 +69,8 @@ class enum_2 {
            my m=my.s;
 
             System.out.println("m.getc()----------"+m.getc());
-            System.out.println("my.s----------"+my.s);
+            System.out.println("my.s----------"+my.s.getc());
+            System.out.println("my.s----------"+my.faaa1.getc());
 
         }
     }
