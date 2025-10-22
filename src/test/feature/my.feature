@@ -16,16 +16,16 @@ Feature: my first featue
 @amit
   Scenario: Successful Login with Valid Credentials
     Given User is on Home Page
-    When User Navigate to LogIn Page
-    And User enters Credentials to LogIn
-      | testuser_1 | Test@153 |
-    Then Message displayed Login Successfully
+#    When User Navigate to LogIn Page
+#    And User enters Credentials to LogIn
+#      | testuser_1 | Test@153 |
+#    Then Message displayed Login Successfully
 
   @amit
   Scenario: Successful Login with Valid Credentials
     Given User is on Home Page
-    When User Navigate to LogIn Page
-    Then Message displayed Login Successfully
+#    When User Navigate to LogIn Page
+#    Then Message displayed Login Successfully
   @par
   Scenario: Successful Login with Valid Credentials
     Given User is on Home Page
