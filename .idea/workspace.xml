@@ -7,12 +7,6 @@
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PojoMap/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PojoMap/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/enum_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/enum_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/logsImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/logsImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Duplicate_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Duplicate_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/UniqueNumberRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/UniqueNumberRange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/my.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/my.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +151,7 @@
       <recent name="TestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainWithJavaObject">
+  <component name="RunManager" selected="Application.Main">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -252,8 +246,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainWithJavaObject" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainWithJavaObject" />
         <item itemvalue="Application.PojoMapExample" />
         <item itemvalue="Application.Duplicate_3" />
         <item itemvalue="Application.SortArray" />

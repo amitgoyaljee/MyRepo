@@ -58,7 +58,7 @@ class Main {
         employeeMap.put(2, emp2);
 
         // Retrieve and print employee by ID
-        Employee retrieved = employeeMap.get(1);
+        Employee retrieved = employeeMap.get(2); // will returm emp2 data
         System.out.println("Retrieved ID: " + retrieved.getId());
         System.out.println("Retrieved Name: " + retrieved.getName());
         System.out.println("Retrieved Courses: " + retrieved.getCourses());
