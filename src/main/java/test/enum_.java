@@ -66,8 +66,10 @@ class enum_2 {
             return c;
         }
         public static void main(String[] args) {
-            my m=my.s;
+           my m=my.s;
+
             System.out.println("m.getc()----------"+m.getc());
             System.out.println("my.s----------"+my.s);
+
         }
     }

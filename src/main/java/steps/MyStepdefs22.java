@@ -48,7 +48,7 @@ public class MyStepdefs22 {
 
     @When("User Navigate to LogIn Page")
     public void userNavigateToLogInPage() {
-        driver.findElement(By.id(""));
+        driver.findElement(By.id("abc"));
     }
 
     @And("User enters Credentials to LogIn")

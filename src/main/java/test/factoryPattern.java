@@ -111,10 +111,10 @@ class Duplicate_3{
 
         int[] temp = new int[n];
         int j=0;
-        for (   int i=0; i<n-1; i++){
+        for (   int i=0; i<n-1; i++){ /// loop -1 and add in last---special for duplicate
             if (arr[i] != arr[i+1]){
                 temp[j++] = arr[i];
-                // System.out.print(temp[i]);
+                System.out.print("j--------"+j+"=="+arr[i+1]);
             }
         } temp[j++] = arr[arr.length - 1]; // Last element
 
@@ -235,7 +235,7 @@ class UniqueNumberRange {
             if (seen[digit]) {// intially false if found then return false otherwise true
                 System.out.println("----"+seen[digit]);
                 return false; // Duplicate digit found
-            }
+            }else
             System.out.println("+++++++"+seen[digit]);
             seen[digit] = true;
             System.out.println("************"+seen[digit]);
@@ -249,7 +249,7 @@ class UniqueNumberRange {
         System.out.println("Unique-digit numbers from " + start + " to " + end + ":");
         for (int i = start; i <= end; i++) {
             if (hasUniqueDigits(i)) {
-                System.out.println(i);
+                System.out.println("Unique no--"+i);
             }
         }
     }

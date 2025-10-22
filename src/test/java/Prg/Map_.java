@@ -67,6 +67,18 @@ public class  Map_ {
             map.forEach((x, y) -> System.out.println( y));
         }
     }
+    @org.junit.Test
+    public void my1() {
+
+        HashMap<String, Integer> hm = new HashMap<>();
+
+        hm.put("abc", 12);
+        hm.put("abxc", 134);
+        hm.put("ac", 14);
+        hm.put("abxc", 234);
+        hm.put("abzc", 1234);
+        hm.entrySet().stream().filter(x->x.getValue()>12).filter(x->x.getKey().equals("ac")).forEach(x->System.out.println(x));
+    }
 
     @Test
     public void HashMapSort() {
@@ -123,7 +135,7 @@ public class  Map_ {
         System.out.println(map);
         Iterator itr = map.entrySet().iterator();
         while (itr.hasNext()) {
-            Entry en = (Entry) itr.next();
+            Map.Entry en = (Map.Entry) itr.next();
             System.out.println(en.getKey() + "" + en.getValue());
         }
         for (Entry en : map.entrySet()) {

@@ -112,7 +112,6 @@ public class inteviewPRG {
         String[] str2 = str.split(" ");
         System.out.println("Org String-----" + str2[0] + str2[1] + str2[2] + str2[3] + str2[4]);
         String reverse = "";
-
         for (String str3 : str2) {
             System.out.println("Every word---" + str3);
             for (int i = str3.length() - 1; i >= 0; i--) {
@@ -202,7 +201,7 @@ public class inteviewPRG {
         //String str = "aa2bbb3s1";
         StringBuilder str2 = new StringBuilder();
         int count = 1;
-        for (int i = 0; i < str.length() - 1; i++) {
+        for (int i = 0; i < str.length() - 1; i++) {   // same as duplicate -1
             if (str.charAt(i) == str.charAt(i + 1)) {
                 count++;
             } else {
@@ -217,9 +216,6 @@ public class inteviewPRG {
         System.out.println("Compressed: " + str2);
     }
 }
-
-
-
 
 ///////////////////////
 class ReverseStringKeepSpecial {

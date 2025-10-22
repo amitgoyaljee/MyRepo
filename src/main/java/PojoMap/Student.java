@@ -20,7 +20,7 @@ class Student {
         if (this == o) return true;
         if (!(o instanceof Student)) return false;
         Student student = (Student) o;
-        return rollNo == student.rollNo && Objects.equals(name, student.name);
+        return rollNo == student.rollNo ;//&& Objects.equals(name, student.name);
     }
 
     @Override
@@ -49,7 +49,7 @@ class PojoAsKeyExample {
         System.out.println(studentGrades.get(s1));  // Output: A
 
         // Get grade using a new but equal POJO
-        Student s3 = new Student(101, "John");
+        Student s3 = new Student(102, "Jane");
         System.out.println(studentGrades.get(s3));  // Output: A (only if equals & hashCode overridden)
     }
 }

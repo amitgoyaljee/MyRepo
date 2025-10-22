@@ -5,37 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PojoMap/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PojoMap/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DriverManager/Hook_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DriverManager/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DriverManager/LoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DriverManager/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DriverManager/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DriverManager/DriverFactory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DriverManager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DriverManager/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aa.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aa.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/DriverMangerSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/DriverMangerSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PojoMap/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PojoMap/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/PicoLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/PicoLoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Myclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Myclass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/encapsulation_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/encapsulation_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/enum_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/enum_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/interAbs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/interAbs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/static_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/static_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/feature/PicoContainer.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/feature/PicoContainer.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/feature/my.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/feature/my.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Prg/AAAA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/AAAA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Prg/Map_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/Map_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/String_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/String_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Prg/array_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/array_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/list_Palin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/list_Palin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/Git__.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/JsonReader/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/JsonReader/JsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/~$Git__.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/DriverTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/DriverTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/TestNGRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/TestNGRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/Jenkins_.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/Jenkins_.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DriverManager/DriverFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DriverManager/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DriverManager/DriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PojoMap/PojoAsKeyExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PojoMap/PojoAsKeyExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PojoMap/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PojoMap/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PojoMap/ZeroKeyNullValueMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PojoMap/ZeroKeyNullValueMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Duplicate_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Duplicate_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/UniqueNumberRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/UniqueNumberRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/my.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/my.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/AAAA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/AAAA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Map_$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Map_$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Map_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Map_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,89 +71,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ClassCastException_.executor": "Run",
-    "Application.Duplicate_1_2.executor": "Run",
-    "Application.Duplicate_1_222.executor": "Run",
-    "Application.Duplicate_3.executor": "Run",
-    "Application.GenerateBill.executor": "Run",
-    "Application.HighestWordValue.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main1.executor": "Run",
-    "Application.OnlyCharsNoBuiltIn.executor": "Run",
-    "Application.OnlyCharsNoBuiltIn1.executor": "Run",
-    "Application.PojoAsKeyExample.executor": "Run",
-    "Application.PojoMapExample.executor": "Run",
-    "Application.SortArray.executor": "Run",
-    "Application.StaticBlockExample.executor": "Run",
-    "Application.TestInheritance2.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "Application.UniqueNumberRange.executor": "Run",
-    "Application.ZeroKeyNullValueMap.executor": "Run",
-    "Application.dataTypeConversion.executor": "Run",
-    "Application.ee$my.executor": "Run",
-    "Application.my.executor": "Run",
-    "Application.secondCharOccurence.executor": "Run",
-    "Application.secondLargestNumberInAnArray.executor": "Run",
-    "Cucumber Java.Feature: PicoContainer.executor": "Run",
-    "Cucumber Java.Scenario: Successful Login with Valid Credentials.executor": "Run",
-    "JUnit.AAAA.loginTest.executor": "Run",
-    "JUnit.AAAA.my.executor": "Run",
-    "JUnit.DriverTestRunner.executor": "Run",
-    "JUnit.FailedTestsRunner (1).executor": "Run",
-    "JUnit.FailedTestsRunner.executor": "Run",
-    "JUnit.PicoTestRunner.executor": "Run",
-    "JUnit.ReRun.executor": "Run",
-    "JUnit.Runner.executor": "Run",
-    "JUnit.TestRunner.executor": "Run",
-    "JUnit.logsImplementation.executor": "Run",
-    "JUnit.logsImplementation.loginTest.executor": "Debug",
-    "JUnit.logs_.loginTest.executor": "Run",
-    "Maven.Selenium_Project [clean].executor": "Run",
-    "Maven.Selenium_Project [install].executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AAAA.DuplicateRemoveArray.executor": "Run",
-    "TestNG.AAAA.MissingNoInArray.executor": "Run",
-    "TestNG.AAAA.SortArray.executor": "Run",
-    "TestNG.AAAA.myFun1.executor": "Run",
-    "TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml.executor": "Run",
-    "TestNG.Deserial.getPojoArrayDummy (1).executor": "Run",
-    "TestNG.Deserial.getPojoArrayDummy.executor": "Run",
-    "TestNG.Deserial.getPojoFromProgramInfoObject (1).executor": "Run",
-    "TestNG.Deserial.getPojoFromProgramInfoObject.executor": "Run",
-    "TestNG.GetApi.myURILogError.executor": "Run",
-    "TestNG.String_.occuranceFirstChar.executor": "Run",
-    "TestNG.String_.subStringMiddle.executor": "Run",
-    "TestNG.SumDigit_Palin.sumofDigit.executor": "Run",
-    "TestNG.TestNGRunner (1).executor": "Run",
-    "TestNG.TestNGRunner.executor": "Run",
-    "TestNG.inteviewPRG.SortArray.executor": "Run",
-    "TestNG.inteviewPRG.myFun2.executor": "Run",
-    "TestNG.inteviewPRG.myIndices.executor": "Run",
-    "TestNG.inteviewPRG.myWithoutSpaceOccurance.executor": "Run",
-    "TestNG.inteviewPRG.rremoveAdjacent.executor": "Run",
-    "TestNG.inteviewPRG.rremoveDuplicateAdjacent.executor": "Run",
-    "TestNG.inteviewPRG.stringCompress.executor": "Run",
-    "TestNG.inteviewPRG.zeroAppendatLast.executor": "Run",
-    "TestNG.list_Palin.hasUniqueDigits.executor": "Run",
-    "TestNG.list_Palin.masking.executor": "Run",
-    "TestNG.list_Palin.missingMultipleNoinArray.executor": "Run",
-    "TestNG.list_Palin.missingMultipleinArray.executor": "Run",
-    "TestNG.list_Palin.missingOnesinArray.executor": "Run",
-    "TestNG.list_Palin.subStringMiddle.executor": "Run",
-    "TestNG.serial.tosetProgramDetails.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/amitg/SeleniumProjects/RN_Automation_iOS_Android_Pr_Audio",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.EditorConfig"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ClassCastException_.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duplicate_1_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duplicate_1_222.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duplicate_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenerateBill.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HighestWordValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OnlyCharsNoBuiltIn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OnlyCharsNoBuiltIn1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PojoAsKeyExample (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PojoAsKeyExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PojoMapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticBlockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestInheritance2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniqueNumberRange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZeroKeyNullValueMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dataTypeConversion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ee$my.executor&quot;: &quot;Run&quot;,
+    &quot;Application.my.executor&quot;: &quot;Run&quot;,
+    &quot;Application.secondCharOccurence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.secondLargestNumberInAnArray.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: PicoContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Successful Login with Valid Credentials.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AAAA.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AAAA.my.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AAAA.my1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DriverTestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FailedTestsRunner (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FailedTestsRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PicoTestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReRun.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.logsImplementation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.logsImplementation.loginTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.logs_.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Selenium_Project [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Selenium_Project [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AAAA.DuplicateRemoveArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AAAA.MissingNoInArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AAAA.SortArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AAAA.myFun1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Deserial.getPojoArrayDummy (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Deserial.getPojoArrayDummy.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Deserial.getPojoFromProgramInfoObject (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Deserial.getPojoFromProgramInfoObject.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetApi.myURILogError.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.String_.occuranceFirstChar.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.String_.subStringMiddle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SumDigit_Palin.sumofDigit.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNGRunner (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNGRunner.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.inteviewPRG.SortArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.inteviewPRG.myFun2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.inteviewPRG.myIndices.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.inteviewPRG.myWithoutSpaceOccurance.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.inteviewPRG.rremoveAdjacent.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.inteviewPRG.rremoveDuplicateAdjacent.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.inteviewPRG.stringCompress.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.inteviewPRG.zeroAppendatLast.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.list_Palin.hasUniqueDigits.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.list_Palin.masking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.list_Palin.missingMultipleNoinArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.list_Palin.missingMultipleinArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.list_Palin.missingOnesinArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.list_Palin.subStringMiddle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.serial.tosetProgramDetails.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amitg/SeleniumProjects/RN_Automation_iOS_Android_Pr_Audio&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.EditorConfig&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="TestNG" />
@@ -176,7 +182,7 @@
       <recent name="TestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZeroKeyNullValueMap">
+  <component name="RunManager" selected="TestNG.inteviewPRG.zeroAppendatLast">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -204,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PojoAsKeyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PojoMap.PojoAsKeyExample" />
+    <configuration name="Duplicate_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Duplicate_3" />
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PojoMap.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PojoMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PojoMap.PojoMapExample" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prg.Main" />
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PojoMap.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,12 +236,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroKeyNullValueMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PojoMap.ZeroKeyNullValueMap" />
+    <configuration name="UniqueNumberRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.UniqueNumberRange" />
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PojoMap.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,7 +249,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inteviewPRG.stringCompress" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AAAA.my1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
@@ -252,11 +258,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Prg" />
-      <option name="MAIN_CLASS_NAME" value="Prg.inteviewPRG" />
-      <option name="METHOD_NAME" value="stringCompress" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="Prg.AAAA" />
+      <option name="METHOD_NAME" value="my1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -281,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZeroKeyNullValueMap" />
-        <item itemvalue="Application.PojoAsKeyExample" />
-        <item itemvalue="Application.PojoMapExample" />
-        <item itemvalue="TestNG.inteviewPRG.stringCompress" />
         <item itemvalue="TestNG.inteviewPRG.zeroAppendatLast" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Duplicate_3" />
+        <item itemvalue="JUnit.AAAA.my1" />
+        <item itemvalue="Application.UniqueNumberRange" />
       </list>
     </recent_temporary>
   </component>
