@@ -186,8 +186,8 @@ public class list_Palin {
         int[] num = {1, 2, 5, 8};
         // Make sure the array is sorted
        // Arrays.sort(num);
-        for (int i = 0; i < num.length - 1; i++) {
-            for (int ii = i+1; ii < num.length - 1; ii++) {
+        for (int i = 0; i < num.length; i++) {
+            for (int ii = i+1; ii < num.length; ii++) {
                if(num[i]>num[ii]){
                    int temp=num[i];
                    num[i]=num[ii];

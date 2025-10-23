@@ -27,7 +27,7 @@ public class MyStepdefs22 {
     public void userIsRaisingADeliveryRequestForAutomobileSpareParts() {
     }
 
-    @When("User enters the <{string}>, a <{string}> is set as a system default")
+    @When("User enters the {string}, a <{string}> is set as a system default")
     public void userEntersTheAIsSetAsASystemDefault(String arg0, String arg1) {
     }
 

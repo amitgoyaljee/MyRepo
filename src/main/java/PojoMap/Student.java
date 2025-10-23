@@ -63,7 +63,7 @@ class PojoAsKeyExample {
         // Put 0 as key and null as value
         map.put(0, null);
         map.put(0, "aaa");
-        map.put(0, "bbb");
+        map.put(0, "bbb");// override
         System.out.println("Value at key override: " + map.get(0));//Value at key 0: bbb
 
 

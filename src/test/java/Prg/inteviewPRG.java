@@ -157,6 +157,7 @@ public class inteviewPRG {
             for (int j = i + 1; j < length; j++) {
                 if (num[i] + num[j] == target) {
                     int[] n = new int[]{i, j};
+                    System.out.printf("Indices %d %d", num[i] ,num[j]);
                     System.out.println("[" + n[0] + " " + n[1] + "]" + num[i] + "," + num[j]);
                     System.out.println("index1--" + n[0] + " index2--" + n[1]);
                     System.out.println("num1---" + num[i] + "    num2---" + num[j]);
@@ -167,18 +168,32 @@ public class inteviewPRG {
     }
 
     @Test
-    public void SortArray() {
-        int num[] = {1, 2, 4, 3, 8, 6, 5, 9};
+    public void zeroByNumber() {
+        int arr[] = new int[] {0 , 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        // num= Arrays.stream(num).distinct().toArray();
+        for(int i=0; i<arr.length; i++){
+        System.out.println(arr[i] / 2);
+                }
+        int n = 6;
 
-        for (int i = 0; i < num.length - 1; i++) {
-            if (num[i] > num[i + 1]) {
-                int temp = num[i];
-                num[i] = num[i + 1];
-                num[i + 1] = temp;
+        System.out.println("----num[n] ======"+arr[n] );
+        System.out.println("----num[n] / 2======"+arr[n] / 2);
+        n = arr[arr[n] / 2];// 6/2=3 position
+        System.out.println("----n--"+n);
             }
-        }
-        System.out.println(Arrays.toString(num));
-    }
+
+//0
+//1
+//1
+//2
+//2
+//3
+//3
+//4
+//4
+//----num[n] ======6
+//----num[n] / 2======3
+//----n--3
 
     @Test
     public void zeroAppendatLast() {

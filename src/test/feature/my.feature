@@ -4,7 +4,7 @@ Feature: my first featue
 
     Given User is raising a delivery request for automobile spare parts
 
-    When User enters the <"city">, a <"delivery type"> is set as a system default
+    When User enters the "city", a <"delivery type"> is set as a system default
 
     Then User submits delivery request
     Examples:

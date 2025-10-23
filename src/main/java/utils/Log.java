@@ -43,6 +43,6 @@ public class Log {
 
         logger.info("Application finished");
     }
-
+//All>Trace>Debug>info>debug>error>fatal>off
 
 }

@@ -119,6 +119,7 @@ class Duplicate_3{
                 }
             }
         }
+        //sorting array    Arrays.sort(arr);
 
         int[] temp = new int[n];
         int j=0;
@@ -128,7 +129,6 @@ class Duplicate_3{
                 System.out.print("j--------"+j+"=="+arr[i+1]);
             }
         } temp[j++] = arr[arr.length - 1]; // Last element
-
 
         for (int num : temp) {
             System.out.println("-----"+num); // will print 0 0 blank space

@@ -3,12 +3,15 @@ package RestApi.JsonReader;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.restassured.path.json.JsonPath;
+//import io.restassured.path.json.JsonPath;
 import org.testng.annotations.Test;
+import com.jayway.jsonpath.JsonPath;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
+import java.util.Map;
 
 public class  JsonReader {
     @Test
@@ -154,6 +157,53 @@ public class  JsonReader {
             System.out.println("Name: " + name);
             System.out.println("City: " + city);
             System.out.println("ZIP: " + zip);
+        }
+
+
+
+    @Test
+    public void readJsonDataWithJsonPath() {
+        String jsonStr = "{ \"name\" : \"Raja\", \"age\" : 30," +
+                " \"technologies\" : [\"Java\", \"Scala\", \"Python\"]," +
+                " \"nestedObject\" : { \"field\" : \"value\" } }";
+
+        // Read a simple field----  $ means root of the JSON document
+        String name = JsonPath.read(jsonStr, "$.name");
+        System.out.println("Name: " + name);
+
+        // Read an array
+        List<String> technologies = JsonPath.read(jsonStr, "$.technologies[*]");
+        System.out.println("Technologies: " + technologies);
+        String firstTech = JsonPath.read(jsonStr, "$.technologies[0]");
+        System.out.println("Technologies[0]: " + firstTech);
+
+        // Read a nested field
+        String nestedValue = JsonPath.read(jsonStr, "$.nestedObject.field");
+        System.out.println("Nested Field: " + nestedValue);
+
+        // You can also extract multiple things using map syntax
+        Map<String, Object> result = JsonPath.parse(jsonStr)
+                .read("$", Map.class);
+        System.out.println("Whole JSON as Map: " + result);
+    }
+
+
+    @Test
+    public void fromFileJsonPath() throws IOException {
+
+            // Path to your JSON file
+            String filePath2 = "src/test/java/RestApi/JsonReader/JsonComplex.json";
+            File file = new File(filePath2);
+
+            // ✅ Read a simple field
+        String name = JsonPath.read(file, "$.user.name");
+        System.out.println("Name: " + name);
+        
+        int id = JsonPath.read(file, "$.user.id");
+        System.out.println("id: " + id);
+
+
+
         }
 }
 

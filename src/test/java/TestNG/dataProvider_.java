@@ -85,7 +85,8 @@ public class dataProvider_ {
         Workbook wb = new HSSFWorkbook();
         Sheet sheet1 = (Sheet) wb.createSheet("abc");
         Row headerRow = sheet.createRow(0);
-        cell.setCellValue("WriteintoExcel");
+        Cell cell1 = row.createCell(0);
+        cell1.setCellValue("WriteintoExcel");
 
         FileOutputStream fos = new FileOutputStream(path);
         wb.write(fos);

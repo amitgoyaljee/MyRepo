@@ -28,7 +28,7 @@ class Main {
         for (int i = 0; i < nums.length ; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 if (nums[i] + nums[j] == target) {
-                    //printf   %d %d
+                    //printf   %d %d no need (plus) + nums[i]
                     System.out.printf("Pair found (%d & %d)", nums[i], nums[j]);
                     System.out.println(nums[i] + "   " + nums[j]);
                    //
@@ -125,7 +125,7 @@ class  secondLargestNumberInAnArray {
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {
                 // single loop not working for sorting   if (array[i] > array[i+1]) {
-//array sort
+//array sort array
                 if (array[i] > array[j]) {
                     temp = array[i];
                     array[i] = array[j];
