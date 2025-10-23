@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 
 public class logsImplementation {
 
-    private static Logger log = LogManager.getLogger(Log.class);
+    private static Logger log = LogManager.getLogger(logsImplementation.class);
 // we have a log4j2.xml file under src/main/resources
     // we can create utils method by overriding
     //logs folder contains file all.log
@@ -50,7 +50,7 @@ public class logsImplementation {
 // 111111111111111<dependencies>
 //    <!-- Core Log4j2 API -->
 //222222222222222222
-//    create log4j2.xml file  set location og log and format time+
+//    create log4j2.xml file  set location of log and format time+
 // 333333333333
 //  private static Logger log = LogManager.getLogger(Log.class);
 //     log.warn("Login test completed warn");

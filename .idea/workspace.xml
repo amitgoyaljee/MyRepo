@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNGRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/JsonReader/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/JsonReader/JsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/JsonReader/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/JsonReader/JsonReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/logsImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/logsImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +93,7 @@
     "TestNG.AAAA.myFun1.executor": "Run",
     "TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml.executor": "Run",
     "TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/TestNGRunner.xml.executor": "Run",
+    "TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/parallel.xml.executor": "Run",
     "TestNG.Deserial.getPojoArrayDummy (1).executor": "Run",
     "TestNG.Deserial.getPojoArrayDummy.executor": "Run",
     "TestNG.Deserial.getPojoFromProgramInfoObject (1).executor": "Run",
@@ -163,7 +162,7 @@
       <recent name="TestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JsonReader.readJsonDataWithJsonPath">
+  <component name="RunManager" selected="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/parallel.xml">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -201,18 +200,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonReader.fromFileJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/amitg/SeleniumProjects/Selenium_Project/parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestApi.JsonReader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestApi.JsonReader" />
-      <option name="MAIN_CLASS_NAME" value="RestApi.JsonReader.JsonReader" />
-      <option name="METHOD_NAME" value="fromFileJsonPath" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -275,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/parallel.xml" />
         <item itemvalue="TestNG.JsonReader.readJsonDataWithJsonPath" />
         <item itemvalue="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/TestNGRunner.xml" />
         <item itemvalue="TestNG.ListnenUSE.testtofail" />
         <item itemvalue="TestNG.ListnenUSE.sum" />
-        <item itemvalue="TestNG.JsonReader.fromFileJsonPath" />
       </list>
     </recent_temporary>
   </component>
