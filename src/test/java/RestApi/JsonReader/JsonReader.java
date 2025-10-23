@@ -174,6 +174,7 @@ public class  JsonReader {
         // Read an array
         List<String> technologies = JsonPath.read(jsonStr, "$.technologies[*]");
         System.out.println("Technologies: " + technologies);
+        //    Not work------------JsonPath jsonPath = new JsonPath();
         String firstTech = JsonPath.read(jsonStr, "$.technologies[0]");
         System.out.println("Technologies[0]: " + firstTech);
 
@@ -185,6 +186,7 @@ public class  JsonReader {
         Map<String, Object> result = JsonPath.parse(jsonStr)
                 .read("$", Map.class);
         System.out.println("Whole JSON as Map: " + result);
+        System.out.println("Name JSON as Map: " + result.get("name"));
     }
 
 
@@ -198,7 +200,7 @@ public class  JsonReader {
             // ✅ Read a simple field
         String name = JsonPath.read(file, "$.user.name");
         System.out.println("Name: " + name);
-        
+
         int id = JsonPath.read(file, "$.user.id");
         System.out.println("id: " + id);
 

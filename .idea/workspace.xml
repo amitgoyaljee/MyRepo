@@ -5,40 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Prg/BBB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNGRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PojoMap/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PojoMap/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/MyStepdefs22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Myclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Myclass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/encapsulation_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/encapsulation_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/feature/my.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/feature/my.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/AAAA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/AAAA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/array_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/array_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/list_Palin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/list_Palin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/JsonReader/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/JsonReader/JsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/~$Git__.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/~$nkins_.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/My.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/My.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/dataProvider_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/dataProvider_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PojoMap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PojoMap/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PojoMap/myEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PojoMap/myEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/steps/MyStepdefs22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/MyStepdefs22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/DivideByZeroException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/DivideByZeroException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Duplicate_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Duplicate_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Unchecked_Runtime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Unchecked_Runtime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/checked_Compile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/checked_Compile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/AAAA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/AAAA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/GFG3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/OnlyCharsNoBuiltIn1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/ReverseStringKeepSpecial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/inteviewPRG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/sawpSpeccialNot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/JsonReader/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/JsonReader/JsonReader.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,14 +94,17 @@
     "TestNG.AAAA.SortArray.executor": "Run",
     "TestNG.AAAA.myFun1.executor": "Run",
     "TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml.executor": "Run",
+    "TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/TestNGRunner.xml.executor": "Run",
     "TestNG.Deserial.getPojoArrayDummy (1).executor": "Run",
     "TestNG.Deserial.getPojoArrayDummy.executor": "Run",
     "TestNG.Deserial.getPojoFromProgramInfoObject (1).executor": "Run",
     "TestNG.Deserial.getPojoFromProgramInfoObject.executor": "Run",
     "TestNG.GetApi.myURILogError.executor": "Run",
     "TestNG.JsonReader.fromFileJsonPath.executor": "Run",
-    "TestNG.JsonReader.readJsonDataWithJsonPath.executor": "Debug",
+    "TestNG.JsonReader.readJsonDataWithJsonPath.executor": "Run",
     "TestNG.JsonReader.readJsonNodeTreeComplex.executor": "Run",
+    "TestNG.ListnenUSE.sum.executor": "Run",
+    "TestNG.ListnenUSE.testtofail.executor": "Run",
     "TestNG.String_.occuranceFirstChar.executor": "Run",
     "TestNG.String_.subStringMiddle.executor": "Run",
     "TestNG.SumDigit_Palin.sumofDigit.executor": "Run",
@@ -156,7 +130,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/amitg/SeleniumProjects/RN_Automation_iOS_Android_Pr_Audio",
+    "last_opened_file_path": "C:/Users/amitg/SeleniumProjects/Selenium_Project",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -168,8 +142,8 @@
       <recent name="TestNG" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\main\java" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project" />
+      <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\main\java" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\Runners" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\test\java\RestApi" />
       <recent name="C:\Users\amitg\SeleniumProjects\Selenium_Project\src\main\resources" />
@@ -189,7 +163,7 @@
       <recent name="TestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JsonReader.fromFileJsonPath">
+  <component name="RunManager" selected="TestNG.JsonReader.readJsonDataWithJsonPath">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -211,6 +185,16 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/amitg/SeleniumProjects/Selenium_Project/TestNGRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNGRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -253,17 +237,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonReader.readJsonNodeTreeComplex" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ListnenUSE.sum" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestApi.JsonReader.*" />
+          <option name="PATTERN" value="TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestApi.JsonReader" />
-      <option name="MAIN_CLASS_NAME" value="RestApi.JsonReader.JsonReader" />
-      <option name="METHOD_NAME" value="readJsonNodeTreeComplex" />
+      <option name="PACKAGE_NAME" value="TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.ListnenUSE" />
+      <option name="METHOD_NAME" value="sum" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -271,35 +255,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inteviewPRG.zeroByNumber" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ListnenUSE.testtofail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prg.*" />
+          <option name="PATTERN" value="TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Prg" />
-      <option name="MAIN_CLASS_NAME" value="Prg.inteviewPRG" />
-      <option name="METHOD_NAME" value="zeroByNumber" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="list_Palin.missingMultipleinArray" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Prg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Prg" />
-      <option name="MAIN_CLASS_NAME" value="Prg.list_Palin" />
-      <option name="METHOD_NAME" value="missingMultipleinArray" />
+      <option name="PACKAGE_NAME" value="TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.ListnenUSE" />
+      <option name="METHOD_NAME" value="testtofail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -309,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JsonReader.fromFileJsonPath" />
         <item itemvalue="TestNG.JsonReader.readJsonDataWithJsonPath" />
-        <item itemvalue="TestNG.JsonReader.readJsonNodeTreeComplex" />
-        <item itemvalue="TestNG.inteviewPRG.zeroByNumber" />
-        <item itemvalue="TestNG.list_Palin.missingMultipleinArray" />
+        <item itemvalue="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/TestNGRunner.xml" />
+        <item itemvalue="TestNG.ListnenUSE.testtofail" />
+        <item itemvalue="TestNG.ListnenUSE.sum" />
+        <item itemvalue="TestNG.JsonReader.fromFileJsonPath" />
       </list>
     </recent_temporary>
   </component>
