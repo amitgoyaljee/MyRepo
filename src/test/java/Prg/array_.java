@@ -256,6 +256,7 @@ class FibonacciExample1 {
             // Example 2: Converting an array of Integers to a List
             Integer[] intArray = {1, 2, 3, 4, 5,9,6};
             List<Integer> intList = Arrays.asList(intArray);//---------------------------------------
+           // List<Integer> intList2 = Arrays.asList(1,2,3);
             System.out.println("List from Integer Array: " + intList);
             Collections.sort(intList);
             System.out.println("sorted: " + intList);

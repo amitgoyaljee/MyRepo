@@ -6,15 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PojoMap/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PojoMap/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PojoMap/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PojoMap/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Myclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Myclass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/factoryPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/logsImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/logsImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/String_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/String_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PojoMap/ZeroKeyNullValueMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PojoMap/ZeroKeyNullValueMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/BBB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/BBB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/array_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/array_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/Duplicate_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Duplicate_3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/UniqueNumberRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/UniqueNumberRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/BBB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/BBB.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +76,8 @@
     "JUnit.AAAA.loginTest.executor": "Run",
     "JUnit.AAAA.my.executor": "Run",
     "JUnit.AAAA.my1.executor": "Run",
+    "JUnit.BBB.my.executor": "Run",
+    "JUnit.BBB.my1.executor": "Run",
     "JUnit.DriverTestRunner.executor": "Run",
     "JUnit.FailedTestsRunner (1).executor": "Run",
     "JUnit.FailedTestsRunner.executor": "Run",
@@ -171,7 +169,7 @@
       <recent name="TestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Duplicate_1_2">
+  <component name="RunManager" selected="JUnit.BBB.my1">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -212,30 +210,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/amitg/SeleniumProjects/Selenium_Project/parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BBB.my" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Prg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.BBB" />
+      <option name="METHOD_NAME" value="my" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonReader.readJsonDataWithJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BBB.my1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestApi.JsonReader.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestApi.JsonReader" />
-      <option name="MAIN_CLASS_NAME" value="RestApi.JsonReader.JsonReader" />
-      <option name="METHOD_NAME" value="readJsonDataWithJsonPath" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.BBB" />
+      <option name="METHOD_NAME" value="my1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -278,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BBB.my1" />
+        <item itemvalue="JUnit.BBB.my" />
         <item itemvalue="Application.Duplicate_1_2" />
         <item itemvalue="TestNG.String_.PnrPattern" />
         <item itemvalue="TestNG.assert_.geekforgeeks" />
-        <item itemvalue="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/parallel.xml" />
-        <item itemvalue="TestNG.JsonReader.readJsonDataWithJsonPath" />
       </list>
     </recent_temporary>
   </component>

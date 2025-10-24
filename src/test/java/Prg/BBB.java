@@ -18,6 +18,7 @@ public class BBB {
         hm.put("abzc", 1234);
         // hm.entrySet().stream().filter(x-> x.getValue()>234).forEach(x->System.out.print(x));
         hm.forEach((x, y) -> System.out.println(x + " " + y));
+        hm.entrySet().stream().forEach(x -> System.out.println(x ));
         hm.put("abcc", 134);
         hm.put("abvc", 14);
         hm.put("abfc", 234);
@@ -50,6 +51,8 @@ public class BBB {
 
         }
         System.out.println(hm.entrySet().stream().filter(x-> x.getValue() == 1234).collect(Collectors.toList()));
+        System.out.println(hm.entrySet().stream().filter(x-> x.getValue() == 1234).map(x->x.getKey()).collect(Collectors.toList()));
+
     }
 
     @Test
@@ -60,6 +63,7 @@ public class BBB {
         hm.put("abc", 12);
         hm.put("abxc", 134);
         hm.put("ac", 14);
+        hm.put("ac", 1444);//override
         hm.put("abxc", 234);
         hm.put("abzc", 1234);
         hm.entrySet().stream().filter(x->x.getValue()>12).filter(x->x.getKey().equals("ac")).forEach(x->System.out.println(x));
