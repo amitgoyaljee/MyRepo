@@ -18,7 +18,7 @@ public class Myclass {
 
 class TestThrow1 {
     //function to check if person is eligible to vote or ------not--only in checked
-    public static void validate(int age) { // throws ArithmeticException unchecked {////// throws is not necessary
+    public static void validate(int age) { // no need throws ArithmeticException unchecked {////// throws is not necessary
         if(age<18) {
             //throw Arithmetic exception if not eligible to vote
             throw new ArithmeticException("Person is not eligible to vote");

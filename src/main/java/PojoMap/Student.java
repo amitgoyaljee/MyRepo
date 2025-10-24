@@ -55,37 +55,3 @@ class PojoAsKeyExample {
 }
 
 
- class ZeroKeyNullValueMap {
-    public static void main(String[] args) {
-        // Create a map
-        Map<Integer, String> map = new HashMap<>();
-
-        // Put 0 as key and null as value
-        map.put(0, null);
-        map.put(0, "aaa");
-        map.put(0, "bbb");// override
-        System.out.println("Value at key override: " + map.get(0));//Value at key 0: bbb
-
-
-        // Add more data if you like
-        map.put(1, "One");
-        map.put(2, "Two");
-        map.put(3, null);
-        map.put(4, null);
-
-        // Print the map
-        System.out.println("Map contents: " + map);
-
-        // Access value for key 0
-        String value = map.get(0);
-        System.out.println("Value at key 0: " + value); // Should print: null
-
-        // Check if key 0 exists
-        System.out.println("Contains key 0? " + map.containsKey(0)); // true
-
-        // Check if null value exists
-        System.out.println("Contains value null? " + map.containsValue(null)); // true
-
-        System.out.println("3rd key " + map.get(3)); //3rd key null
-    }
-}

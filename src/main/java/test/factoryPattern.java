@@ -79,6 +79,8 @@ class Duplicate_1_2
         // input list with duplicates
         List<Integer> list = new ArrayList<>(
                 Arrays.asList(1, 10, 1, 2, 2, 3, 10, 3, 3, 4, 5, 5));
+//        list.add(2,20);
+//        list.add(30);
 
         // Print the Arraylist
         System.out.println("ArrayList with duplicates: "
@@ -94,7 +96,7 @@ class Duplicate_1_2
         System.out.println("ArrayList with duplicates removed: "
                 + newList);
 ///////////22222222222222
-        //Set<Integer> set1 = new HashSet<Integer>(Arrays.asList(arr));
+        //Set<Integer> set1 = new HashSet<Integer>(list);
         Set<Integer> set = new HashSet<Integer>(Arrays.asList(arr));
         System.out.println("ArrayList with duplicates removed using set: "
                 + set);

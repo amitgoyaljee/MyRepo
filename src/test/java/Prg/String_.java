@@ -1,6 +1,8 @@
 package Prg;
 
+import org.junit.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import java.util.*;
 
@@ -151,7 +153,17 @@ public class String_ {
             //amit is name my
         }
     }
+    @Test
+    public void PnrPattern() {
+        // String pnr = JsonPath.read(responseBody, "$.recordLocator");
+        String str = "ab23cd";
+        SoftAssert sf= new SoftAssert();
+        boolean isAlphanumeric = str.matches("^[A-Za-z0-9]{6}+$");
+        sf.assertTrue(isAlphanumeric, "Invalid string: " + str);
+        System.out.println("Is alphanumeric? " + isAlphanumeric);
+        sf.assertAll();
 
+    }
     @Test
     public void occuranceFirstChar() {
         String str = "amscfhamscaa";

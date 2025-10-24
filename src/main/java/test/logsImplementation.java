@@ -27,7 +27,7 @@ public class logsImplementation {
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
             log.info("Starting login test");
             //or we can pick from our Log class
-           Log.info("Starting login test info");
+           Log.info("Starting login test info");// from our class Log override method
             driver.get("https://example.com/login");
             log.debug(" Navigated to login page debug");
             // Your test code
