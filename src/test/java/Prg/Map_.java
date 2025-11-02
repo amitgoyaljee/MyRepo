@@ -40,7 +40,7 @@ public class  Map_ {
 
             System.out.println("222222222222222222222222///////////");
 
-            for (Map.Entry en : map.entrySet()) {
+            for (Map.Entry<String, Integer> en : map.entrySet()) {
                 System.out.println(en.getKey());
                 System.out.println(en.getValue());
             }
@@ -49,7 +49,7 @@ public class  Map_ {
 
             Iterator itr = map.entrySet().iterator();
             while (itr.hasNext()) {
-                Map.Entry en = ( Map.Entry) itr.next();
+                Map.Entry<String, Integer> en = ( Map.Entry) itr.next();
                 System.out.println(en.getKey());
                 System.out.println(en.getValue());
             }

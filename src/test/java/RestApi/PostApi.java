@@ -25,6 +25,7 @@ public class PostApi {
                 "    \"job\": \"leader\"\n" +
                 "}")
                 .header("x-api-key", "reqres-free-v1").when().post();
+        //https://reqres.in/api/users/1?api_key=reqres-free-v1
         System.out.println("ccccccc"+response1.prettyPrint());
         String contentType = response1.header("Content-Type");
         System.out.println("Content-Type value: " + contentType);

@@ -124,4 +124,24 @@ class dataTypeConversion {  // Jisma karna ho dot---Integer.valueOf(str2)---  St
             System.out.println("\nHighest value word: " + highestWord + " (Value: " + highestValue + ")");
         }
     }
+//Because if a class is private, no other class could ever access it
+// — not even from the same package. That would make it useless as a top-level class.
+class Outer {
+    private class Inner {
+        void display() {
+            System.out.println("Private inner class");
+        }
+    }
+
+    // Method inside Outer to access Inner
+    public void accessInner() {
+        Inner innerObj = new Inner();  // ✅ Allowed (Outer can access its private members)
+        innerObj.display();
+    }
+
+    public static void main(String[] args) {
+        Outer outer = new Outer();
+        outer.accessInner();  // Access private inner class indirectly
+    }
+}
 

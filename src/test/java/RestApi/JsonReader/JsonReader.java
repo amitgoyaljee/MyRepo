@@ -10,6 +10,8 @@ import com.jayway.jsonpath.JsonPath;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
 
@@ -132,11 +134,13 @@ public class  JsonReader {
 //    }
 //  }
 //}
+    ////////////////////////////////////////////
     @Test
     public void readJsonNodeTreeComplex() throws IOException {
         String filePath2 = "src/test/java/RestApi/JsonReader/JsonComplex.json";
         ObjectMapper mapper = new ObjectMapper();
             // Load JSON file into a tree
+        //JsonNode jsonNode = mapper.readTree(response.asString());  -----------------response
             JsonNode rootNode = mapper.readTree(new File(filePath2));
             // Navigate the tree
             JsonNode userNode = rootNode.get("user");
@@ -207,5 +211,21 @@ public class  JsonReader {
 
 
         }
+
+
+    @Test
+    public void fromFileJsonPathPostMan() throws IOException {
+        // Path to your JSON file
+        String filePath2 = "src/test/java/RestApi/JsonReader/postman_collection.json";
+        File file = new File(filePath2);
+
+        // ✅ Read a simple field
+        String name = JsonPath.read(file, "$.info.name");
+        System.out.println("Name: " + name);
+
+
+
+
+    }
 }
 

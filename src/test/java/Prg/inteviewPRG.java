@@ -35,7 +35,7 @@ public class inteviewPRG {
     @Test
     public void rremoveDuplicateAdjacent() throws Exception {
         String str = "myyynnnamemmmnnn";
-        char[] chArray = str.toCharArray();
+        //char[] chArray = str.toCharArray();
         StringBuilder strBf = new StringBuilder();
         //for (char chEach : chArray) {
         for (int i = 0; i < str.length(); i++) {
@@ -96,7 +96,6 @@ public class inteviewPRG {
     @Test
     public void myFun() {
         String str = "The cat under the roof";
-        StringBuilder sb = new StringBuilder();
         String reverse = "";
         int length_ = str.length();
         for (int i = length_ - 1; i >= 0; i--) {

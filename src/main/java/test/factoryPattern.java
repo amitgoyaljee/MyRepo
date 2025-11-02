@@ -125,7 +125,7 @@ class Duplicate_3{
 
         int[] temp = new int[n];
         int j=0;
-        for (   int i=0; i<n-1; i++){ /// loop -1 and add in last---special for duplicate
+        for (   int i=0; i<n-1; i++){ /// loop -1 and add in last---special for missing and duplicate
             if (arr[i] != arr[i+1]){
                 temp[j++] = arr[i];
                 System.out.print("j--------"+j+"=="+arr[i+1]);

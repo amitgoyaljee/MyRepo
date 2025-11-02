@@ -51,7 +51,10 @@ public void Postreq() {
     System.out.println("response-----" + response.asString());
 }
 
-    @Test //object mapper in place of json node
+    //object mapper in place of json node//////////////////
+
+
+    @Test
     public void findPetWithObjectMapper() throws IOException {
         RestAssured.baseURI = "https://petstore.swagger.io/v2/pet";
         RequestSpecification request = RestAssured.given();

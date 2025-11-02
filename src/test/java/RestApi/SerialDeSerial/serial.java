@@ -34,7 +34,7 @@ public class serial {
     public void tosetProgramDetails(){
         User user = new User();  // Java object
         user.setName("Amit");
-        RestAssured.baseURI="https://jsonplaceholder.typicode.com/users/1111";
+        RestAssured.baseURI="https://jsonplaceholder.typicode.com/users/1";
         Response res =  RestAssured
                 .given().contentType("application/json; charset=UTF-8")
                 .body(user) //-----//

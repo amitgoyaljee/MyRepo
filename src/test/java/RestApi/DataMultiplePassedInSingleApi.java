@@ -62,10 +62,15 @@ public class DataMultiplePassedInSingleApi {
 
         RestAssured.baseURI = "https://reqres.in/api/users";
 
-        Map<String,String> map= new HashMap<>();
-        map.put("name",name);//aaaaa, cccccc
-        map.put("job",job);//AAAAA, CCCC
-
+        Map<String, String> map = new HashMap<>();
+        map.put("name", name);//aaaaa, cccccc
+        map.put("job", job);//AAAAA, CCCC
+//{
+//    "name": "aaaa",
+//    "job": "AAAAA",
+//    "id": "903",
+//    "createdAt": "2025
+    //}
         Response response=given().contentType(ContentType.JSON).body(map).header("x-api-key", "reqres-free-v1")
                 .when().post();
         System.out.println("ccccccc"+response.prettyPrint());

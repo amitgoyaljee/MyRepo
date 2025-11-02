@@ -96,7 +96,7 @@ public class list_Palin {
                 map.put(ch2, map.get(ch2) + 1);
             }
         }
-        for (Map.Entry en : map.entrySet()) {
+        for (Map.Entry<String, Integer> en : map.entrySet()) {
             System.out.println(en.getKey());
             System.out.println(en.getValue());
         }
@@ -201,7 +201,7 @@ public class list_Palin {
         int missArry[]=new int[num.length];// missing array
         int arrsi=0;// missing array
 
-        for (int i = 0; i < num.length - 1; i++) {
+        for (int i = 0; i < num.length - 1; i++) {  // use -1 in missing and duplicate
             int current = num[i];
             int next = num[i + 1];  // if both missing & next are same then no missing increase
             // Check for numbers between current and next
