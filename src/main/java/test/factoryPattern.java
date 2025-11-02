@@ -188,7 +188,7 @@ aaa extends aq {
     // attempting to assign weaker access privileges ('private'); was 'public'
 }
 
-class aqaq
+class  aqaq
 {
     public static void main(String[] args) {
         aq aqqqq= new aq();
