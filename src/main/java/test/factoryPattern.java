@@ -70,7 +70,7 @@ class GenerateBill {
 }
 
 // Program to remove duplicates from a List in Java 8
-class Duplicate_1_2
+class  Duplicate_1_2
 {
     public static void main(String[] args)
     {

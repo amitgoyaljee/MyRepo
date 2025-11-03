@@ -11,7 +11,8 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class logsImplementation {
+public class
+logsImplementation {
 
     private static Logger log = LogManager.getLogger(logsImplementation.class);
 // we have a log4j2.xml file under src/main/resources
