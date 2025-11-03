@@ -11,7 +11,7 @@ public class PicoContext {
     private WebDriver driver;
 
   public  PicoContext(){
-        stepData=new HashMap<>(); // logic of pico costructor
+        stepData=new HashMap<>(); // logic of pico constructor
     }
 
     public String getContext(String key) {
