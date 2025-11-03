@@ -144,4 +144,15 @@ class Outer {
         outer.accessInner();  // Access private inner class indirectly
     }
 }
-
+class ExitInTryCatch {
+    public static void main(String[] args) {
+        try {
+            System.out.println("Inside try block");
+            System.exit(0);  // Terminates the JVM immediately
+        } catch (Exception e) {
+            System.out.println("Inside catch block");
+        } finally {
+            System.out.println("Inside finally block");
+        }
+    }
+}
