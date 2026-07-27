@@ -3,7 +3,7 @@ package PojoMap;
 import java.util.*;
 
 
-class Employee {
+class  Employee {
     private int id;
     private MyName name;
     private List<String> courses;
@@ -93,11 +93,11 @@ enum myEnum {
         return c;
     }
 //    public static void main(String[] args) {
-//        myEnum m= myEnum.s;
+//        myEnum m= myEnum.TransId1;
 //
-//        System.out.println("m.getc()----------"+m.getc());
-//        System.out.println("my.s----------"+ myEnum.s.getc());
-//        System.out.println("my.s----------"+ myEnum.y.getc());
+//        System.out.println("m.getc()----------"+m.getTransId1());
+//        System.out.println("my.s----------"+ myEnum.TransId1.getTransId1());
+//        System.out.println("my.s----------"+ myEnum.TransId2.getTransId1());
 //
 //    }
 }

@@ -40,3 +40,7 @@ Feature: my first featue
   @drive
   Scenario: Successful Login with Valid Credentials
     Given User is on Home Page1
+
+
+  Scenario: Successful land on Login with Valid Credentials
+    Given user is on login page
