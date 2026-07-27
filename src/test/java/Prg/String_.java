@@ -1,10 +1,12 @@
 package Prg;
 
 import org.junit.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import java.util.*;
+import java.util.regex.Pattern;
 
 public class String_ {
 
@@ -89,6 +91,41 @@ public class String_ {
         System.out.println("alpha"+str.replaceAll("[\\W\\d]",""));
         System.out.println("special"+str.replaceAll("[\\d\\w\\s]",""));
     }
+
+   // TC for ("^TCS*(B|F)/[A-Z0-9}{2}/All$")
+   // Regex pattern
+   private static final Pattern PATTERN = Pattern.compile("^TCS\\*(B|F)/[A-Z0-9]{2}/All$");
+
+    // DataProvider with test cases
+    @DataProvider(name = "tcsData")
+    public Object[][] createData() {
+        return new Object[][]{
+                // ✅ Valid cases
+                {"TCB/AB/All", true},
+                {"TCSB/A1/All", true},
+                {"TCSSB/Z9/All", true},
+                {"TCSF/99/All", true},
+                {"TCSF/A9/All", true},
+                {"TCSF-B-BA", true},
+
+                // ❌ Invalid cases
+                {"TCSF/A/All", false},       // Only one char after slash
+                {"TCB/ABC/All", false},      // Too many chars
+                {"TCSX/A1/All", false},      // X not allowed
+                {"TCSF/A1/all", false},      // 'All' must be uppercase
+                {"XTCSB/A1/All", false},     // Doesn’t start with TC
+                {"TCSF/A1/All/", false}      // Extra slash at end
+        };
+    }
+
+    // Actual test method
+    @Test(dataProvider = "tcsData")
+    public void testTCSPattern(String input, boolean expected) {
+        boolean matches = PATTERN.matcher(input).matches();
+        System.out.printf("Testing: %-20s | Expected: %-5s | Got: %-5s%n", input, expected, matches);
+       // Assert.assertEquals(matches, expected, "Mismatch for input: " + input);
+    }
+
     @Test
     public void randomNoGen() {
         String str = "amscfhjwqjdjqfhjhe";

@@ -51,7 +51,7 @@ public void Postreq() {
     System.out.println("response-----" + response.asString());
 }
 
-    //object mapper in place of json node//////////////////
+    //object mapper in place of json path//////////////////
 
 
     @Test

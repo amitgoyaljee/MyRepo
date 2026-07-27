@@ -57,8 +57,12 @@ public class  Map_ {
             System.out.println("444444444///////////");
 
             map.entrySet().forEach(x -> System.out.println(x));
+
             System.out.println("///////////");
             map.keySet().forEach(x -> System.out.println(x));
+            System.out.println("/////////5555555//");
+            map.keySet().stream().forEach(x -> System.out.println(x));
+
 
             System.out.println("5555555555///////////");
 

@@ -54,6 +54,7 @@ class Main {
 
         // Store employees in a Map
         Map<Integer, Employee> employeeMap = new HashMap<>();
+        //Pojo as a value
         employeeMap.put(myEnum.TransId1.getTransId1(), emp1);//  employeeMap.put(emp1.getId(), emp1);
         employeeMap.put(2, emp2);
 

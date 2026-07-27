@@ -62,6 +62,7 @@ class Main1{
 }
  // DataType.toString(ob);         ----to string        --->  Arrays.toString(objArray)
 // dataType.valueOf(ob)---------covert to dataType      --->Integer.valueOf(str2)
+//
 
 class dataTypeConversion {  // Jisma karna ho dot---Integer.valueOf(str2)---  String.valueOf(num3)  ....best method
     public static void main(String[] args) {
