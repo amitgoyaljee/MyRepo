@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PojoMap/myEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PojoMap/myEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/Super_This.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/Super_This.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/DataMultiplePassedInSingleApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/DataMultiplePassedInSingleApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/serial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/serial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/A1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/A1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Student1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Student1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TestSuper3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TestSuper3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TestThis222.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TestThis222.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TestThis3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TestThis3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TestThis4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TestThis4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TestThis5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TestThis5.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +82,10 @@
     "Application.SortArray.executor": "Run",
     "Application.StaticBlockExample.executor": "Run",
     "Application.TestInheritance2.executor": "Run",
+    "Application.TestSuper3.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.UniqueNumberRange.executor": "Run",
+    "Application.Varargs.executor": "Run",
     "Application.ZeroKeyNullValueMap.executor": "Run",
     "Application.dataTypeConversion.executor": "Run",
     "Application.ee$my.executor": "Run",
@@ -84,6 +96,7 @@
     "Application.secondLargestNumberInAnArray.executor": "Run",
     "Application.test.Main (1).executor": "Run",
     "Application.test.Main.executor": "Run",
+    "Application.varArgs1.executor": "Run",
     "Cucumber Java.Feature: PicoContainer.executor": "Run",
     "Cucumber Java.Scenario: Successful Login with Valid Credentials.executor": "Run",
     "Cucumber Java.Scenario: Successful land on Login with Valid Credentials.executor": "Run",
@@ -111,6 +124,7 @@
     "TestNG.AAAA.MissingNoInArray.executor": "Run",
     "TestNG.AAAA.SortArray.executor": "Run",
     "TestNG.AAAA.myFun1.executor": "Run",
+    "TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOther.xml.executor": "Run",
     "TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOtherDifferTest.xml.executor": "Run",
     "TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/TestNGRunner.xml.executor": "Run",
     "TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/parallel.xml.executor": "Run",
@@ -124,6 +138,7 @@
     "TestNG.JsonReader.fromFileJsonPath.executor": "Run",
     "TestNG.JsonReader.fromFileJsonPathPostMan.executor": "Run",
     "TestNG.JsonReader.readJsonDataWithJsonPath.executor": "Run",
+    "TestNG.JsonReader.readJsonNode1.executor": "Run",
     "TestNG.JsonReader.readJsonNodeTreeComplex.executor": "Run",
     "TestNG.ListnenUSE.sum.executor": "Run",
     "TestNG.ListnenUSE.testtofail.executor": "Run",
@@ -139,6 +154,9 @@
     "TestNG.TestNGRunner (1).executor": "Run",
     "TestNG.TestNGRunner.executor": "Run",
     "TestNG.assert_.geekforgeeks.executor": "Run",
+    "TestNG.authrization.basicT.executor": "Run",
+    "TestNG.authrization.executor": "Run",
+    "TestNG.authrization.validateToken.executor": "Run",
     "TestNG.inteviewPRG.SortArray.executor": "Run",
     "TestNG.inteviewPRG.myFun2.executor": "Run",
     "TestNG.inteviewPRG.myIndices.executor": "Run",
@@ -156,6 +174,7 @@
     "TestNG.list_Palin.missingMultipleinArray.executor": "Run",
     "TestNG.list_Palin.missingOnesinArray.executor": "Run",
     "TestNG.list_Palin.subStringMiddle.executor": "Run",
+    "TestNG.serial.WithoutSerialPostreqMap.executor": "Run",
     "TestNG.serial.tosetProgramDetails (1).executor": "Run",
     "TestNG.serial.tosetProgramDetails.executor": "Run",
     "TestNG.star_.leftStar.executor": "Run",
@@ -197,7 +216,7 @@
       <recent name="TestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.String_.subString_">
+  <component name="RunManager" selected="TestNG.DataMultiplePassedInSingleApi.PostreqMap">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -225,17 +244,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String_.PnrPattern" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOther.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/OneAPIOther.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataMultiplePassedInSingleApi.PostreqMap" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prg.*" />
+          <option name="PATTERN" value="RestApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Prg" />
-      <option name="MAIN_CLASS_NAME" value="Prg.String_" />
-      <option name="METHOD_NAME" value="PnrPattern" />
+      <option name="PACKAGE_NAME" value="RestApi" />
+      <option name="MAIN_CLASS_NAME" value="RestApi.DataMultiplePassedInSingleApi" />
+      <option name="METHOD_NAME" value="PostreqMap" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -243,17 +272,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String_.randomNoGen" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="authrization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prg.*" />
+          <option name="PATTERN" value="RestApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Prg" />
-      <option name="MAIN_CLASS_NAME" value="Prg.String_" />
-      <option name="METHOD_NAME" value="randomNoGen" />
+      <option name="PACKAGE_NAME" value="RestApi" />
+      <option name="MAIN_CLASS_NAME" value="RestApi.authrization" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="authrization.basicT" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestApi" />
+      <option name="MAIN_CLASS_NAME" value="RestApi.authrization" />
+      <option name="METHOD_NAME" value="basicT" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -261,53 +307,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String_.subString_" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="authrization.validateToken" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prg.*" />
+          <option name="PATTERN" value="RestApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Prg" />
-      <option name="MAIN_CLASS_NAME" value="Prg.String_" />
-      <option name="METHOD_NAME" value="subString_" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="star_.leftStar" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Prg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Prg" />
-      <option name="MAIN_CLASS_NAME" value="Prg.star_" />
-      <option name="METHOD_NAME" value="leftStar" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="star_.rightStar" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Prg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Prg" />
-      <option name="MAIN_CLASS_NAME" value="Prg.star_" />
-      <option name="METHOD_NAME" value="rightStar" />
+      <option name="PACKAGE_NAME" value="RestApi" />
+      <option name="MAIN_CLASS_NAME" value="RestApi.authrization" />
+      <option name="METHOD_NAME" value="validateToken" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -317,11 +327,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.String_.subString_" />
-        <item itemvalue="TestNG.String_.PnrPattern" />
-        <item itemvalue="TestNG.String_.randomNoGen" />
-        <item itemvalue="TestNG.star_.rightStar" />
-        <item itemvalue="TestNG.star_.leftStar" />
+        <item itemvalue="TestNG.DataMultiplePassedInSingleApi.PostreqMap" />
+        <item itemvalue="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOther.xml" />
+        <item itemvalue="TestNG.authrization.basicT" />
+        <item itemvalue="TestNG.authrization" />
+        <item itemvalue="TestNG.authrization.validateToken" />
       </list>
     </recent_temporary>
   </component>

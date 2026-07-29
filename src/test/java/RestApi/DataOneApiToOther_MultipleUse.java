@@ -20,7 +20,7 @@ class DataOneApiToOther_MultipleUse {
             System.out.println("id-----readyforDelete-------" + id);
 
             RestAssured.baseURI = "https://reqres.in/api/users/id";
-            Response response1 = given().contentType(ContentType.JSON).header("x-api-key", "reqres-free-v1")
+            Response response1 = given().contentType(ContentType.JSON).header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p")
                     .when().delete();
             System.out.println(response1.getStatusCode());
             Assert.assertEquals(response1.getStatusCode(), 204);/////no content
@@ -30,7 +30,7 @@ class DataOneApiToOther_MultipleUse {
     public void Deletereqres222( ) {
         System.out.println("id111------------" + id111);
         RestAssured.baseURI = "https://reqres.in/api/users/798";
-        Response response1 = given().contentType(ContentType.JSON).header("x-api-key", "reqres-free-v1")
+        Response response1 = given().contentType(ContentType.JSON).header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p")
                 .when().delete();
         System.out.println(response1.getStatusCode());
         Assert.assertEquals(response1.getStatusCode(), 204);/////no content

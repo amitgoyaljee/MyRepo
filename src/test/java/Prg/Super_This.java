@@ -17,6 +17,7 @@ class Dog extends Animal{
     }
     Dog(){
         super();// 3 rd use
+
         System.out.println("dog is created");
      //  super(); always before not here
     }

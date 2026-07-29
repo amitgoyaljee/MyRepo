@@ -23,7 +23,7 @@ public class serial {
         map.put("name", "aaaaa");
         map.put("job", "AAAA");
 
-        Response response = given().contentType(ContentType.JSON).body(map).header("x-api-key", "reqres-free-v1")
+        Response response = given().contentType(ContentType.JSON).body(map).header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p")
                 .when().post();
         System.out.println("ccccccc" + response.prettyPrint());
 

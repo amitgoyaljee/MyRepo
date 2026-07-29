@@ -24,7 +24,7 @@ public class PostApi {
                 "    \"name\": \"amit\",\n" +
                 "    \"job\": \"leader\"\n" +
                 "}")
-                .header("x-api-key", "reqres-free-v1").when().post();
+                .header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p").when().post();
         //https://reqres.in/api/users/1?api_key=reqres-free-v1
         System.out.println("ccccccc"+response1.prettyPrint());
         String contentType = response1.header("Content-Type");
@@ -41,7 +41,7 @@ public class PostApi {
                 "    \"name\": \"amit\",\n" +
                 "    \"job\": \"leader\"\n" +
                 "}")
-                .header("x-api-key", "reqres-free-v1").when().post();
+                .header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p").when().post();
         System.out.println("ccccccc"+response1.prettyPrint());
 
 

@@ -53,8 +53,8 @@ public class DataMultiplePassedInSingleApi {
       //  return data;
         //or
        return  new Object[][]{
-            {"aaaa","AAAAA"},
-            {"cccc","CCCC"}
+            {"amit1","Job1"},
+            {"amit2","Job2"}
         };
     }
     @Test(dataProvider ="multipleData" )
@@ -63,15 +63,15 @@ public class DataMultiplePassedInSingleApi {
         RestAssured.baseURI = "https://reqres.in/api/users";
 
         Map<String, String> map = new HashMap<>();
-        map.put("name", name);//aaaaa, cccccc
-        map.put("job", job);//AAAAA, CCCC
+        map.put("name", name);//"amit1","Job1"
+        map.put("job", job);//"amit2","Job2"
 //{
-//    "name": "aaaa",
-//    "job": "AAAAA",
+//    "name": "amit1",
+//    "job": "Job1",
 //    "id": "903",
 //    "createdAt": "2025
     //}
-        Response response=given().contentType(ContentType.JSON).body(map).header("x-api-key", "reqres-free-v1")
+        Response response=given().contentType(ContentType.JSON).body(map).header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p")
                 .when().post();
         System.out.println("ccccccc"+response.prettyPrint());
         String id=response.jsonPath().get("id");
