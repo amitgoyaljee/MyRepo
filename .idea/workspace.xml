@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PojoMap/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PojoMap/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/feature/my.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/feature/my.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/ExitInTryCatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/ExitInTryCatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/HighestWordValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/HighestWordValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Outer$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Outer$Inner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Outer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Outer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/dataTypeConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/dataTypeConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PojoMap/myEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PojoMap/myEnum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -58,7 +57,7 @@
     "Application.ExitExample.executor": "Run",
     "Application.ExitInTryCatch.executor": "Run",
     "Application.GenerateBill.executor": "Run",
-    "Application.HighestWordValue.executor": "Run",
+    "Application.HighestWordValue.executor": "Debug",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main1.executor": "Run",
@@ -69,6 +68,7 @@
     "Application.PojoAsKeyExample.executor": "Run",
     "Application.PojoMapExample.executor": "Run",
     "Application.Prg.Main.executor": "Run",
+    "Application.Solution.executor": "Run",
     "Application.SortArray.executor": "Run",
     "Application.StaticBlockExample.executor": "Run",
     "Application.TestInheritance2.executor": "Run",
@@ -82,9 +82,12 @@
     "Application.myEnum.executor": "Run",
     "Application.secondCharOccurence.executor": "Run",
     "Application.secondLargestNumberInAnArray.executor": "Run",
+    "Application.test.Main (1).executor": "Run",
+    "Application.test.Main.executor": "Run",
     "Cucumber Java.Feature: PicoContainer.executor": "Run",
     "Cucumber Java.Scenario: Successful Login with Valid Credentials.executor": "Run",
     "Cucumber Java.Scenario: Successful land on Login with Valid Credentials.executor": "Run",
+    "Cucumber Java.Scenario: Valid login.executor": "Run",
     "JUnit.AAAA.loginTest.executor": "Run",
     "JUnit.AAAA.my.executor": "Run",
     "JUnit.AAAA.my1.executor": "Run",
@@ -127,7 +130,9 @@
     "TestNG.Map_.HashMapPrg.executor": "Run",
     "TestNG.String_.PnrPattern.executor": "Run",
     "TestNG.String_.occuranceFirstChar.executor": "Run",
+    "TestNG.String_.randomNoGen.executor": "Run",
     "TestNG.String_.subStringMiddle.executor": "Run",
+    "TestNG.String_.subString_.executor": "Run",
     "TestNG.String_.testTCSPattern (1).executor": "Run",
     "TestNG.String_.testTCSPattern.executor": "Run",
     "TestNG.SumDigit_Palin.sumofDigit.executor": "Run",
@@ -138,9 +143,10 @@
     "TestNG.inteviewPRG.myFun2.executor": "Run",
     "TestNG.inteviewPRG.myIndices.executor": "Run",
     "TestNG.inteviewPRG.myWithoutSpaceOccurance.executor": "Run",
+    "TestNG.inteviewPRG.removeDuplicateAll.executor": "Run",
     "TestNG.inteviewPRG.rremoveAdjacent.executor": "Run",
     "TestNG.inteviewPRG.rremoveDuplicateAdjacent.executor": "Run",
-    "TestNG.inteviewPRG.stringCompress.executor": "Run",
+    "TestNG.inteviewPRG.stringCompress.executor": "Debug",
     "TestNG.inteviewPRG.zeroAppendatLast.executor": "Run",
     "TestNG.inteviewPRG.zeroByNumber.executor": "Run",
     "TestNG.list_Palin.PalinDigit.executor": "Run",
@@ -152,7 +158,9 @@
     "TestNG.list_Palin.subStringMiddle.executor": "Run",
     "TestNG.serial.tosetProgramDetails (1).executor": "Run",
     "TestNG.serial.tosetProgramDetails.executor": "Run",
+    "TestNG.star_.leftStar.executor": "Run",
     "TestNG.star_.leftStarwitoutSpace.executor": "Run",
+    "TestNG.star_.rightStar.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -189,7 +197,7 @@
       <recent name="TestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.myEnum">
+  <component name="RunManager" selected="TestNG.String_.subString_">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -217,85 +225,103 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PojoMap.Main" />
+    <configuration name="String_.PnrPattern" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PojoMap.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.String_" />
+      <option name="METHOD_NAME" value="PnrPattern" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PojoMap.Main" />
+    <configuration name="String_.randomNoGen" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PojoMap.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.String_" />
+      <option name="METHOD_NAME" value="randomNoGen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWithJavaObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PojoMap.MainWithJavaObject" />
+    <configuration name="String_.subString_" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PojoMap.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.String_" />
+      <option name="METHOD_NAME" value="subString_" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="myEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PojoMap.myEnum" />
+    <configuration name="star_.leftStar" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PojoMap.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.star_" />
+      <option name="METHOD_NAME" value="leftStar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Successful land on Login with Valid Credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/feature/my.feature" />
-      <option name="GLUE" value="steps DriverManager" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="star_.rightStar" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
-      <option name="NAME_FILTER" value="^Successful land on Login with Valid Credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful land on Login with Valid Credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Successful land on Login with Valid Credentials" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.star_" />
+      <option name="METHOD_NAME" value="rightStar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.myEnum" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MainWithJavaObject" />
-        <item itemvalue="Cucumber Java.Scenario: Successful land on Login with Valid Credentials" />
+        <item itemvalue="TestNG.String_.subString_" />
+        <item itemvalue="TestNG.String_.PnrPattern" />
+        <item itemvalue="TestNG.String_.randomNoGen" />
+        <item itemvalue="TestNG.star_.rightStar" />
+        <item itemvalue="TestNG.star_.leftStar" />
       </list>
     </recent_temporary>
   </component>
@@ -474,6 +500,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/test/logsImplementation.java</url>
           <line>32</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/encapsulation_.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Prg/inteviewPRG.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/RestApi/DeleteApi.java</url>

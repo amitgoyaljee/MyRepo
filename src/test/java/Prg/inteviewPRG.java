@@ -18,14 +18,16 @@ public class inteviewPRG {
     public void rremoveAdjacent() throws Exception {
         String str = "myyy nameee issy ameit aeeeeaaa";
         char[] chArray = str.toCharArray();
-        StringBuilder strBf = new StringBuilder();
+       // StringBuilder strBf = new StringBuilder();
+        String strBf = new String();
         for (char chEach : chArray) {
             int len = strBf.length();
             if (len > 0 && strBf.charAt(len - 1) == chEach) {
                 //or
                 //  strBf.deleteCharAt(len-1);
             } else {
-                strBf.append(chEach);
+               // strBf.append(chEach);
+                strBf += chEach;
             }
         }
         System.out.println("reversed string is: " + strBf.toString());
