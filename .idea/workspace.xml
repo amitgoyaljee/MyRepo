@@ -6,19 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="bb3e03ad-55d8-4aeb-9ab0-ad4158713c87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/Super_This.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/Super_This.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/DataMultiplePassedInSingleApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/DataMultiplePassedInSingleApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/serial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/SerialDeSerial/serial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/A1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/A1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/Student1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/Student1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TestSuper3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TestSuper3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TestThis222.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TestThis222.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TestThis3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TestThis3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TestThis4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TestThis4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Prg/TestThis5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Prg/TestThis5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DriverManager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DriverManager/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/encapsulation_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/encapsulation_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prg/array_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prg/array_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUseOfApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/DataOneApiToOther_MultipleUseOfApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/DeleteApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/DeleteApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApi/PostApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApi/PostApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUseOfApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/DataOneApiToOther_MultipleUseOfApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/DeleteApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/DeleteApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RestApi/PostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestApi/PostApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +110,7 @@
     "JUnit.Runner.executor": "Run",
     "JUnit.TestRunner.executor": "Run",
     "JUnit.logsImplementation.executor": "Run",
-    "JUnit.logsImplementation.loginTest.executor": "Debug",
+    "JUnit.logsImplementation.loginTest.executor": "Run",
     "JUnit.logs_.loginTest.executor": "Run",
     "Maven.Selenium_Project [clean].executor": "Run",
     "Maven.Selenium_Project [install].executor": "Run",
@@ -134,6 +130,7 @@
     "TestNG.Deserial.getPojoArrayDummy.executor": "Run",
     "TestNG.Deserial.getPojoFromProgramInfoObject (1).executor": "Run",
     "TestNG.Deserial.getPojoFromProgramInfoObject.executor": "Run",
+    "TestNG.Factory_Object_.executor": "Run",
     "TestNG.GetApi.myURILogError.executor": "Run",
     "TestNG.JsonReader.fromFileJsonPath.executor": "Run",
     "TestNG.JsonReader.fromFileJsonPathPostMan.executor": "Run",
@@ -153,6 +150,7 @@
     "TestNG.SumDigit_Palin.sumofDigit.executor": "Run",
     "TestNG.TestNGRunner (1).executor": "Run",
     "TestNG.TestNGRunner.executor": "Run",
+    "TestNG.array_.myyy.executor": "Run",
     "TestNG.assert_.geekforgeeks.executor": "Run",
     "TestNG.authrization.basicT.executor": "Run",
     "TestNG.authrization.executor": "Run",
@@ -216,7 +214,7 @@
       <recent name="TestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DataMultiplePassedInSingleApi.PostreqMap">
+  <component name="RunManager" selected="TestNG.array_.myyy">
     <configuration type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <useClassPathOnly />
@@ -244,44 +242,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOther.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PojoMap.Main" />
       <module name="Selenium_Project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/OneAPIOther.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PojoMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataMultiplePassedInSingleApi.PostreqMap" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="logsImplementation.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestApi.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestApi" />
-      <option name="MAIN_CLASS_NAME" value="RestApi.DataMultiplePassedInSingleApi" />
-      <option name="METHOD_NAME" value="PostreqMap" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.logsImplementation" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="authrization" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Factory_Object_" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestApi.*" />
+          <option name="PATTERN" value="TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestApi" />
-      <option name="MAIN_CLASS_NAME" value="RestApi.authrization" />
+      <option name="PACKAGE_NAME" value="TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.Factory_Object_" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -289,17 +288,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="authrization.basicT" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="array_.myyy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestApi.*" />
+          <option name="PATTERN" value="Prg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestApi" />
-      <option name="MAIN_CLASS_NAME" value="RestApi.authrization" />
-      <option name="METHOD_NAME" value="basicT" />
+      <option name="PACKAGE_NAME" value="Prg" />
+      <option name="MAIN_CLASS_NAME" value="Prg.array_" />
+      <option name="METHOD_NAME" value="myyy" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -307,17 +306,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="authrization.validateToken" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="assert_.geekforgeeks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestApi.*" />
+          <option name="PATTERN" value="TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestApi" />
-      <option name="MAIN_CLASS_NAME" value="RestApi.authrization" />
-      <option name="METHOD_NAME" value="validateToken" />
+      <option name="PACKAGE_NAME" value="TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.assert_" />
+      <option name="METHOD_NAME" value="geekforgeeks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -327,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DataMultiplePassedInSingleApi.PostreqMap" />
-        <item itemvalue="TestNG.C:/Users/amitg/SeleniumProjects/Selenium_Project/OneAPIOther.xml" />
-        <item itemvalue="TestNG.authrization.basicT" />
-        <item itemvalue="TestNG.authrization" />
-        <item itemvalue="TestNG.authrization.validateToken" />
+        <item itemvalue="TestNG.array_.myyy" />
+        <item itemvalue="JUnit.logsImplementation.loginTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.Factory_Object_" />
+        <item itemvalue="TestNG.assert_.geekforgeeks" />
       </list>
     </recent_temporary>
   </component>

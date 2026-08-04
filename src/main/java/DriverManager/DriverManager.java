@@ -3,7 +3,7 @@ package DriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class DriverManager {
+public class  DriverManager {
         private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 
         public static WebDriver getDriver() {

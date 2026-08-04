@@ -8,8 +8,10 @@ public class
 array_ {
     @Test// length length() size() use
     public void myyy(){
+        int[] arr1 = new int[]{1, 2};
         int[] arr = {1, 2, 3};
         System.out.println(arr.length);///////////////////    length
+        System.out.println(arr1.length);///////////////////    length
 
         String name = "Java";
         System.out.println(name.length());//////////////////////////    length())
@@ -51,16 +53,14 @@ class Main {
     public  void isPairAvailable(int arrayLength,int Sum,int input_array[])
     {
         int left = 0,right = arrayLength-1;
-        while (left < right)
-        {
-            if (input_array[left] + input_array[right] == Sum)
-            {
+        while (left < right) {
+            if (input_array[left] + input_array[right] == Sum) {
                 System.out.println("The two numbers are "+input_array[left] +" and "+ input_array[right]);
 
             }
-         if (input_array[left] + input_array[right] > Sum) {
+            if (input_array[left] + input_array[right] > Sum) {
              right--;
-         }//decrementing the right index
+            }//decrementing the right index
             //if (input_array[left] + input_array[right] < Sum) {
             else{
                 left++;

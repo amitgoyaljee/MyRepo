@@ -13,7 +13,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class DataOneApiToOther_MultipleUseOfApi {
+public class     DataOneApiToOther_MultipleUseOfApi {
     static String id111 = "";
     //Runing with xml file OneApiOther
     //{ All string
@@ -31,7 +31,7 @@ public class DataOneApiToOther_MultipleUseOfApi {
         map.put("name","aaaaa");
         map.put("job","AAAA");
 
-        Response response=given().contentType(ContentType.JSON).body(map).header("x-api-key", "reqres-free-v1")
+        Response response=given().contentType(ContentType.JSON).body(map).header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p")
                 .when().post();
         System.out.println("ccccccc"+response.prettyPrint());
         String id=response.jsonPath().get("id");
@@ -49,7 +49,7 @@ public class DataOneApiToOther_MultipleUseOfApi {
         map.put("name","aaaaa");
         map.put("job","AAAA");
 
-        Response response=given().contentType(ContentType.JSON).body(map).header("x-api-key", "reqres-free-v1")
+        Response response=given().contentType(ContentType.JSON).body(map).header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p")
                 .when().post();
         System.out.println("ccccccc"+response.prettyPrint());
         id111=response.jsonPath().get("id");

@@ -64,7 +64,7 @@ class Main1{
 // dataType.valueOf(ob)---------covert to dataType      --->Integer.valueOf(str2)
 //
 
-class dataTypeConversion {  // Jisma karna ho dot---Integer.valueOf(str2)---  String.valueOf(num3)  ....best method
+class  dataTypeConversion {  // Jisma karna ho dot---Integer.valueOf(str2)---  String.valueOf(num3)  ....best method
     public static void main(String[] args) {
         String str = "123";
         int num = Integer.parseInt(str);

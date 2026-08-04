@@ -57,7 +57,7 @@ public class DeleteApi {
     public void Deletereqres() {
 
         RestAssured.baseURI = "https://reqres.in/api/users/798";
-        Response response1=given().contentType(ContentType.JSON) .header("x-api-key", "reqres-free-v1")
+        Response response1=given().contentType(ContentType.JSON) .header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p")
                 .when().delete();
         System.out.println(response1.getStatusCode());
         Assert.assertEquals(response1.getStatusCode(),204);/////no content

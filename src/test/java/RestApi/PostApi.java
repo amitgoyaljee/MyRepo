@@ -60,7 +60,7 @@ public class PostApi {
         map.put("name","aaaaa");
         map.put("job","AAAA");
 
-        Response response=given().contentType(ContentType.JSON).body(map).header("x-api-key", "reqres-free-v1")
+        Response response=given().contentType(ContentType.JSON).body(map).header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p")
                 .when().post();
         System.out.println("ccccccc"+response.prettyPrint());
 
@@ -89,7 +89,7 @@ public class PostApi {
                 "    \"name\": \"amitGoyal\",\n" +
                 "    \"job\": \"leaderPut\"\n" +
                 "}")
-                .header("x-api-key", "reqres-free-v1").when().put();
+                .header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p").when().put();
         System.out.println("ccccccc"+response.prettyPrint());
 
     }
@@ -102,7 +102,7 @@ public class PostApi {
                 //"    \"name\": \"amitGoyal\",\n" +
                 "    \"job\": \"leaderPatch-------\"\n" +
                 "}")
-                .header("x-api-key", "reqres-free-v1").when().patch();
+                .header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p").when().patch();
         System.out.println("ccccccc"+response.prettyPrint());
 
     }
@@ -121,7 +121,7 @@ public class PostApi {
         rPojo.setJob("aaaa");
         rPojo.setName("gggggg");
         Response response=given().contentType(ContentType.JSON).body(rPojo)
-                .header("x-api-key", "reqres-free-v1").when().post();
+                .header("x-api-key", "free_user_3HAcl7l6tu2mPQKDcrMUy6GBv6p").when().post();
         System.out.println("Response---------"+response.prettyPrint());
 
     }

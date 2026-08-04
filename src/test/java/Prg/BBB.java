@@ -16,7 +16,7 @@ public class BBB {
         hm.put("ac", 14);
         hm.put("abxc", 234);
         hm.put("abzc", 1234);
-        // hm.entrySet().stream().filter(x-> x.getValue()>234).forEach(x->System.out.print(x));
+           hm.entrySet().stream().filter(x-> x.getValue()>234).forEach(x->System.out.print(x));
         hm.forEach((x, y) -> System.out.println(x + " " + y));
         hm.entrySet().stream().forEach(x -> System.out.println(x ));
         hm.put("abcc", 134);
